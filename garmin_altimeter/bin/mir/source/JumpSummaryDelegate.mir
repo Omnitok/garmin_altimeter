@@ -1,0 +1,112 @@
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc"; @line = 3; @symbol_classdef = [JumpSummaryDelegate,3,6,25]; @symbol_extends<0> = [WatchUi,3,34,41]; @symbol_extends<1> = [BehaviorDelegate,3,42,58]; ]
+class JumpSummaryDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc"; @line = 5; @position = 8; @symbol_vardef = [summaryView,5,8,19]; ]
+    var summaryView;
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [view,7,24,28]; ]
+    function initialize(view) as Void {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_7_30_10_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 8 8 ]
+        symbol [ BehaviorDelegate %tmp.2 8 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 8 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 9 8 ]
+        %tmp.4 = lgetv %view;
+        symbol [ view %tmp.4 9 22 26 ];
+        symbol [ summaryView ? 9 8 19 ];
+        putv self :summaryView %tmp.4;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_7_30_10_4_stop:
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc"; @line = 13; @symbol_functiondef = [onSelect,13,13,21]; ]
+    function onSelect() {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_13_24_29_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 14 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_13_24_29_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_13_24_29_4_stop" ]
+        %storage.1 = local;
+        symbol [ storage %storage.1 14 12 19 ];
+        symbol [ JumpStorage %tmp.4 14 26 37 ];
+        %tmp.4 = getv ? :JumpStorage;
+        %tmp.1 = newc %tmp.4 ();
+        lputv %storage.1 %tmp.1;
+        symbol [ storage %storage.1 14 12 19 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 16 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_16_8_18_8_if_stmt:
+        %tmp.5 = lgetv %storage.1;
+        symbol [ storage %tmp.5 16 12 19 ];
+        symbol [ getJumpCount %tmp.6 16 20 32 ];
+        %tmp.6 = getv function %tmp.5 :getJumpCount;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = 0;
+        %tmp.9 = eq %tmp.7 %tmp.8;
+        bf %tmp.9 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_16_8_18_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_16_8_18_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_16_41_18_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 17 12 ]
+        %tmp.10 = true;
+        ret %tmp.10;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_16_41_18_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_16_8_18_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_16_8_18_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 20 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_13_24_29_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_13_24_29_4_stop" ]
+        %listView.2 = local;
+        symbol [ listView %listView.2 20 12 20 ];
+        symbol [ JumpListView %tmp.14 20 27 39 ];
+        %tmp.14 = getv ? :JumpListView;
+        %tmp.11 = newc %tmp.14 ();
+        lputv %listView.2 %tmp.11;
+        symbol [ listView %listView.2 20 12 20 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 22 8 ]
+        symbol [ WatchUi %tmp.15 22 8 15 ];
+        %tmp.15 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.16 22 16 24 ];
+        %tmp.16 = getv function %tmp.15 :pushView;
+        %tmp.17 = lgetv %listView.2;
+        symbol [ listView %tmp.17 23 12 20 ];
+        symbol [ JumpListDelegate %tmp.21 24 16 32 ];
+        %tmp.21 = getv ? :JumpListDelegate;
+        %tmp.22 = lgetv %listView.2;
+        symbol [ listView %tmp.22 24 33 41 ];
+        %tmp.18 = newc %tmp.21 (%tmp.22);
+        symbol [ WatchUi %tmp.23 25 12 19 ];
+        %tmp.23 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.24 25 20 28 ];
+        %tmp.24 = getv %tmp.23 :SLIDE_UP;
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.18, %tmp.24);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 28 8 ]
+        %tmp.25 = true;
+        ret %tmp.25;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_13_24_29_4_stop:
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc"; @line = 31; @symbol_functiondef = [onBack,31,13,19]; ]
+    function onBack() {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_31_22_34_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 32 8 ]
+        symbol [ WatchUi %tmp.1 32 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.2 32 16 23 ];
+        %tmp.2 = getv function %tmp.1 :popView;
+        symbol [ WatchUi %tmp.3 32 24 31 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.4 32 32 42 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" 33 8 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpSummaryDelegate_mc_31_22_34_4_stop:
+    }
+}
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc"; @line = 1; ]
+<init> {
+}

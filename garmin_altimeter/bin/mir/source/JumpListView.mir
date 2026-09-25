@@ -1,0 +1,414 @@
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Graphics,1,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 4; @symbol_classdef = [JumpListView,4,6,18]; @symbol_extends<0> = [WatchUi,4,27,34]; @symbol_extends<1> = [View,4,35,39]; ]
+class JumpListView extends WatchUi.View {
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 6; @position = 8; @symbol_vardef = [storage,6,8,15]; ]
+    var storage;
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 7; @position = 8; @symbol_vardef = [selectedJumpNumber,7,8,26]; ]
+    var selectedJumpNumber = 0;
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
+    function initialize() as Void {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_9_26_14_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 10 8 ]
+        symbol [ View %tmp.2 10 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 10 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 12 8 ]
+        symbol [ JumpStorage %tmp.7 12 22 33 ];
+        %tmp.7 = getv ? :JumpStorage;
+        %tmp.4 = newc %tmp.7 ();
+        symbol [ storage ? 12 8 15 ];
+        putv self :storage %tmp.4;
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 13 8 ]
+        symbol [ storage %tmp.9 13 29 36 ];
+        %tmp.9 = getv ? :storage;
+        symbol [ getJumpCount %tmp.10 13 37 49 ];
+        %tmp.10 = getv function %tmp.9 :getJumpCount;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        symbol [ selectedJumpNumber ? 13 8 26 ];
+        putv self :selectedJumpNumber %tmp.11;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_9_26_14_4_stop:
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 16; @symbol_functiondef = [selectOlder,16,13,24]; ]
+    function selectOlder() {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_16_27_21_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 17 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_17_8_20_8_if_stmt:
+        symbol [ selectedJumpNumber %tmp.2 17 12 30 ];
+        %tmp.2 = getv ? :selectedJumpNumber;
+        %tmp.3 = 1;
+        %tmp.4 = gt %tmp.2 %tmp.3;
+        bf %tmp.4 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_17_8_20_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_17_8_20_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_17_36_20_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 18 12 ]
+        symbol [ selectedJumpNumber %tmp.5 18 12 30 ];
+        %tmp.5 = getv self :selectedJumpNumber;
+        %tmp.6 = 1;
+        %tmp.7 = sub %tmp.5 %tmp.6;
+        symbol [ selectedJumpNumber ? 18 12 30 ];
+        putv self :selectedJumpNumber dup %tmp.7;
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 19 12 ]
+        symbol [ WatchUi %tmp.8 19 12 19 ];
+        %tmp.8 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.9 19 20 33 ];
+        %tmp.9 = getv function %tmp.8 :requestUpdate;
+        invoke %tmp.8 %tmp.9();
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_17_36_20_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_17_8_20_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_17_8_20_8_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_16_27_21_4_stop:
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 23; @symbol_functiondef = [selectNewer,23,13,24]; ]
+    function selectNewer() {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_23_27_30_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 24 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_23_27_30_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_23_27_30_4_stop" ]
+        %count.1 = local;
+        symbol [ count %count.1 24 12 17 ];
+        symbol [ storage %tmp.2 24 20 27 ];
+        %tmp.2 = getv ? :storage;
+        symbol [ getJumpCount %tmp.3 24 28 40 ];
+        %tmp.3 = getv function %tmp.2 :getJumpCount;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %count.1 %tmp.4;
+        symbol [ count %count.1 24 12 17 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 26 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_26_8_29_8_if_stmt:
+        symbol [ selectedJumpNumber %tmp.6 26 12 30 ];
+        %tmp.6 = getv ? :selectedJumpNumber;
+        %tmp.7 = lgetv %count.1;
+        symbol [ count %tmp.7 26 33 38 ];
+        %tmp.8 = lt %tmp.6 %tmp.7;
+        bf %tmp.8 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_26_8_29_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_26_8_29_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_26_40_29_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 27 12 ]
+        symbol [ selectedJumpNumber %tmp.9 27 12 30 ];
+        %tmp.9 = getv self :selectedJumpNumber;
+        %tmp.10 = 1;
+        %tmp.11 = add %tmp.9 %tmp.10;
+        symbol [ selectedJumpNumber ? 27 12 30 ];
+        putv self :selectedJumpNumber dup %tmp.11;
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 28 12 ]
+        symbol [ WatchUi %tmp.12 28 12 19 ];
+        %tmp.12 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.13 28 20 33 ];
+        %tmp.13 = getv function %tmp.12 :requestUpdate;
+        invoke %tmp.12 %tmp.13();
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_26_40_29_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_26_8_29_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_26_8_29_8_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_23_27_30_4_stop:
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 32; @symbol_functiondef = [getSelectedJumpNumber,32,13,34]; ]
+    function getSelectedJumpNumber() {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_32_37_34_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 33 8 ]
+        symbol [ selectedJumpNumber %tmp.2 33 15 33 ];
+        %tmp.2 = getv ? :selectedJumpNumber;
+        ret %tmp.2;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_32_37_34_4_stop:
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 36; @symbol_functiondef = [onUpdate,36,13,21]; @symbol_param<0> = [dc,36,22,24]; ]
+    function onUpdate(dc) {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 37 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_stop" ]
+        %centerX.1 = local;
+        symbol [ centerX %centerX.1 37 12 19 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 37 22 24 ];
+        symbol [ getWidth %tmp.2 37 25 33 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = 2;
+        %tmp.5 = div %tmp.3 %tmp.4;
+        lputv %centerX.1 %tmp.5;
+        symbol [ centerX %centerX.1 37 12 19 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 38 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_stop" ]
+        %jumpCount.2 = local;
+        symbol [ jumpCount %jumpCount.2 38 12 21 ];
+        symbol [ storage %tmp.7 38 24 31 ];
+        %tmp.7 = getv ? :storage;
+        symbol [ getJumpCount %tmp.8 38 32 44 ];
+        %tmp.8 = getv function %tmp.7 :getJumpCount;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        lputv %jumpCount.2 %tmp.9;
+        symbol [ jumpCount %jumpCount.2 38 12 21 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 40 8 ]
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 40 8 10 ];
+        symbol [ setColor %tmp.11 40 11 19 ];
+        %tmp.11 = getv function %tmp.10 :setColor;
+        symbol [ Graphics %tmp.12 41 12 20 ];
+        %tmp.12 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.13 41 21 32 ];
+        %tmp.13 = getv %tmp.12 :COLOR_BLACK;
+        symbol [ Graphics %tmp.14 42 12 20 ];
+        %tmp.14 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.15 42 21 32 ];
+        %tmp.15 = getv %tmp.14 :COLOR_BLACK;
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 44 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 44 8 10 ];
+        symbol [ clear %tmp.17 44 11 16 ];
+        %tmp.17 = getv function %tmp.16 :clear;
+        invoke %tmp.16 %tmp.17();
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 46 8 ]
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 46 8 10 ];
+        symbol [ setColor %tmp.19 46 11 19 ];
+        %tmp.19 = getv function %tmp.18 :setColor;
+        symbol [ Graphics %tmp.20 47 12 20 ];
+        %tmp.20 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.21 47 21 32 ];
+        %tmp.21 = getv %tmp.20 :COLOR_WHITE;
+        symbol [ Graphics %tmp.22 48 12 20 ];
+        %tmp.22 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.23 48 21 38 ];
+        %tmp.23 = getv %tmp.22 :COLOR_TRANSPARENT;
+        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 59 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_59_8_69_8_if_stmt:
+        %tmp.24 = lgetv %jumpCount.2;
+        symbol [ jumpCount %tmp.24 59 12 21 ];
+        %tmp.25 = 0;
+        %tmp.26 = eq %tmp.24 %tmp.25;
+        bf %tmp.26 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_59_8_69_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_59_8_69_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_59_28_69_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 60 12 ]
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 60 12 14 ];
+        symbol [ drawText %tmp.28 60 15 23 ];
+        %tmp.28 = getv function %tmp.27 :drawText;
+        %tmp.29 = lgetv %centerX.1;
+        symbol [ centerX %tmp.29 61 16 23 ];
+        %tmp.30 = 105;
+        symbol [ Graphics %tmp.31 63 16 24 ];
+        %tmp.31 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.32 63 25 35 ];
+        %tmp.32 = getv %tmp.31 :FONT_SMALL;
+        %tmp.33 = "NO SAVED JUMPS";
+        symbol [ Graphics %tmp.34 65 16 24 ];
+        %tmp.34 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.35 65 25 44 ];
+        %tmp.35 = getv %tmp.34 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30, %tmp.32, %tmp.33, %tmp.35);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 68 12 ]
+        ret ?;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_59_28_69_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_59_8_69_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_59_8_69_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 71 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_stop" ]
+        %firstJump.3 = local;
+        symbol [ firstJump %firstJump.3 71 12 21 ];
+        symbol [ selectedJumpNumber %tmp.37 71 24 42 ];
+        %tmp.37 = getv ? :selectedJumpNumber;
+        %tmp.38 = 2;
+        %tmp.39 = add %tmp.37 %tmp.38;
+        lputv %firstJump.3 %tmp.39;
+        symbol [ firstJump %firstJump.3 71 12 21 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 73 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_73_8_75_8_if_stmt:
+        %tmp.40 = lgetv %firstJump.3;
+        symbol [ firstJump %tmp.40 73 12 21 ];
+        %tmp.41 = lgetv %jumpCount.2;
+        symbol [ jumpCount %tmp.41 73 24 33 ];
+        %tmp.42 = gt %tmp.40 %tmp.41;
+        bf %tmp.42 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_73_8_75_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_73_8_75_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_73_35_75_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 74 12 ]
+        %tmp.43 = lgetv %jumpCount.2;
+        symbol [ jumpCount %tmp.43 74 24 33 ];
+        lputv %firstJump.3 %tmp.43;
+        symbol [ firstJump %firstJump.3 74 12 21 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_73_35_75_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_73_8_75_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_73_8_75_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 77 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_stop" ]
+        %y.4 = local;
+        symbol [ y %y.4 77 12 13 ];
+        %tmp.44 = 52;
+        lputv %y.4 %tmp.44;
+        symbol [ y %y.4 77 12 13 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 79 8 ]
+        for @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_test @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_incr @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_init:
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_begin" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_end" ]
+        %row.5 = local;
+        symbol [ row %row.5 79 17 20 ];
+        %tmp.45 = 0;
+        lputv %row.5 %tmp.45;
+        symbol [ row %row.5 79 17 20 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_test:
+        %tmp.46 = lgetv %row.5;
+        symbol [ row %tmp.46 79 26 29 ];
+        %tmp.47 = 5;
+        %tmp.48 = lt %tmp.46 %tmp.47;
+        bf %tmp.48 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_begin:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_45_113_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 80 12 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_45_113_8_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_45_113_8_stop" ]
+        %jumpNumber.6 = local;
+        symbol [ jumpNumber %jumpNumber.6 80 16 26 ];
+        %tmp.49 = lgetv %firstJump.3;
+        symbol [ firstJump %tmp.49 80 29 38 ];
+        %tmp.50 = lgetv %row.5;
+        symbol [ row %tmp.50 80 41 44 ];
+        %tmp.51 = sub %tmp.49 %tmp.50;
+        lputv %jumpNumber.6 %tmp.51;
+        symbol [ jumpNumber %jumpNumber.6 80 16 26 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 82 12 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_82_12_84_12_if_stmt:
+        %tmp.52 = lgetv %jumpNumber.6;
+        symbol [ jumpNumber %tmp.52 82 16 26 ];
+        %tmp.53 = 1;
+        %tmp.54 = lt %tmp.52 %tmp.53;
+        bf %tmp.54 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_82_12_84_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_82_12_84_12_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_82_32_84_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 83 16 ]
+        goto break @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_82_32_84_12_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_82_12_84_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_82_12_84_12_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 86 12 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_86_12_96_12_if_stmt:
+        %tmp.55 = lgetv %jumpNumber.6;
+        symbol [ jumpNumber %tmp.55 86 16 26 ];
+        symbol [ selectedJumpNumber %tmp.57 86 30 48 ];
+        %tmp.57 = getv ? :selectedJumpNumber;
+        %tmp.58 = eq %tmp.55 %tmp.57;
+        bf %tmp.58 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_86_12_96_12_if_else_false;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_86_12_96_12_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_86_50_91_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 87 16 ]
+        %tmp.59 = lgetv %dc;
+        symbol [ dc %tmp.59 87 16 18 ];
+        symbol [ setColor %tmp.60 87 19 27 ];
+        %tmp.60 = getv function %tmp.59 :setColor;
+        symbol [ Graphics %tmp.61 88 20 28 ];
+        %tmp.61 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.62 88 29 41 ];
+        %tmp.62 = getv %tmp.61 :COLOR_YELLOW;
+        symbol [ Graphics %tmp.63 89 20 28 ];
+        %tmp.63 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.64 89 29 46 ];
+        %tmp.64 = getv %tmp.63 :COLOR_TRANSPARENT;
+        invoke %tmp.59 %tmp.60(%tmp.62, %tmp.64);
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_86_50_91_12_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_86_12_96_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_86_12_96_12_if_else_false:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_91_19_96_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 92 16 ]
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 92 16 18 ];
+        symbol [ setColor %tmp.66 92 19 27 ];
+        %tmp.66 = getv function %tmp.65 :setColor;
+        symbol [ Graphics %tmp.67 93 20 28 ];
+        %tmp.67 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.68 93 29 40 ];
+        %tmp.68 = getv %tmp.67 :COLOR_WHITE;
+        symbol [ Graphics %tmp.69 94 20 28 ];
+        %tmp.69 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.70 94 29 46 ];
+        %tmp.70 = getv %tmp.69 :COLOR_TRANSPARENT;
+        invoke %tmp.65 %tmp.66(%tmp.68, %tmp.70);
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_91_19_96_12_stop:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_86_12_96_12_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 98 12 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_45_113_8_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_45_113_8_stop" ]
+        %marker.7 = local;
+        symbol [ marker %marker.7 98 16 22 ];
+        %tmp.71 = "  ";
+        lputv %marker.7 %tmp.71;
+        symbol [ marker %marker.7 98 16 22 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 100 12 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_100_12_102_12_if_stmt:
+        %tmp.72 = lgetv %jumpNumber.6;
+        symbol [ jumpNumber %tmp.72 100 16 26 ];
+        symbol [ selectedJumpNumber %tmp.74 100 30 48 ];
+        %tmp.74 = getv ? :selectedJumpNumber;
+        %tmp.75 = eq %tmp.72 %tmp.74;
+        bf %tmp.75 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_100_12_102_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_100_12_102_12_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_100_50_102_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 101 16 ]
+        %tmp.76 = "> ";
+        lputv %marker.7 %tmp.76;
+        symbol [ marker %marker.7 101 16 22 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_100_50_102_12_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_100_12_102_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_100_12_102_12_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 104 12 ]
+        %tmp.77 = lgetv %dc;
+        symbol [ dc %tmp.77 104 12 14 ];
+        symbol [ drawText %tmp.78 104 15 23 ];
+        %tmp.78 = getv function %tmp.77 :drawText;
+        %tmp.79 = lgetv %centerX.1;
+        symbol [ centerX %tmp.79 105 16 23 ];
+        %tmp.80 = lgetv %y.4;
+        symbol [ y %tmp.80 106 16 17 ];
+        symbol [ Graphics %tmp.81 107 16 24 ];
+        %tmp.81 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.82 107 25 35 ];
+        %tmp.82 = getv %tmp.81 :FONT_SMALL;
+        %tmp.83 = lgetv %marker.7;
+        symbol [ marker %tmp.83 108 16 22 ];
+        %tmp.84 = "JUMP #";
+        %tmp.85 = add %tmp.83 %tmp.84;
+        %tmp.86 = lgetv %jumpNumber.6;
+        symbol [ jumpNumber %tmp.86 108 36 46 ];
+        symbol [ format %tmp.87 108 47 53 ];
+        %tmp.87 = getv function %tmp.86 :format;
+        %tmp.88 = "%d";
+        %tmp.89 = invoke %tmp.86 %tmp.87(%tmp.88);
+        %tmp.90 = add %tmp.85 %tmp.89;
+        symbol [ Graphics %tmp.91 109 16 24 ];
+        %tmp.91 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.92 109 25 44 ];
+        %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.77 %tmp.78(%tmp.79, %tmp.80, %tmp.82, %tmp.90, %tmp.92);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 112 12 ]
+        %tmp.93 = lgetv %y.4;
+        symbol [ y %tmp.93 112 12 13 ];
+        %tmp.94 = 32;
+        %tmp.95 = add %tmp.93 %tmp.94;
+        lputv %y.4 %tmp.95;
+        symbol [ y %y.4 112 12 13 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_45_113_8_stop:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_incr:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" 79 ]
+        %tmp.96 = lgetv %row.5;
+        symbol [ row %tmp.96 79 35 38 ];
+        %tmp.97 = 1;
+        %tmp.98 = add %tmp.96 %tmp.97;
+        lputv %row.5 %tmp.98;
+        symbol [ row %row.5 79 35 38 ];
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_test;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_79_8_113_8_for_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpListView_mc_36_26_114_4_stop:
+    }
+}
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc"; @line = 1; ]
+<init> {
+}

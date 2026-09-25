@@ -18,9 +18,11 @@ class garmin_altimeterApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new garmin_altimeterView(), new garmin_altimeterDelegate() ];
+        return [
+            new garmin_altimeterView(),
+            new garmin_altimeterDelegate()
+        ];
     }
-
 }
 
 function getApp() as garmin_altimeterApp {

@@ -1,0 +1,44 @@
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc"; @line = 3; @symbol_classdef = [JumpDetailDelegate,3,6,24]; @symbol_extends<0> = [WatchUi,3,33,40]; @symbol_extends<1> = [BehaviorDelegate,3,41,57]; ]
+class JumpDetailDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    function initialize() as Void {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpDetailDelegate_mc_5_26_7_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc" 6 8 ]
+        symbol [ BehaviorDelegate %tmp.2 6 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 6 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpDetailDelegate_mc_5_26_7_4_stop:
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc"; @line = 9; @symbol_functiondef = [onBack,9,13,19]; ]
+    function onBack() {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpDetailDelegate_mc_9_22_12_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc" 10 8 ]
+        symbol [ WatchUi %tmp.1 10 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.2 10 16 23 ];
+        %tmp.2 = getv function %tmp.1 :popView;
+        symbol [ WatchUi %tmp.3 10 24 31 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.4 10 32 42 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc" 11 8 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpDetailDelegate_mc_9_22_12_4_stop:
+    }
+}
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc"; @line = 1; ]
+<init> {
+}

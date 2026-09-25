@@ -2,192 +2,605 @@
 <debugInfo>
     <manifest filename="/home/janee/garmin_altimeter/garmin_altimeter/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="1" lineNum="5" parent="globals/garmin_altimeterApp" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="3" lineNum="6" parent="globals/garmin_altimeterView" pc="268435505" symbol="&lt;init&gt;"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435524" symbol="&lt;init&gt;"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="5" lineNum="4" parent="globals/garmin_altimeterDelegate" pc="268435548" symbol="&lt;init&gt;"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="6" lineNum="5" parent="globals/garmin_altimeterMenuDelegate" pc="268435567" symbol="&lt;init&gt;"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="7" lineNum="12" parent="globals/garmin_altimeterApp" pc="268435586" symbol="onStart"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="8" lineNum="20" parent="globals/garmin_altimeterApp" pc="268435589" symbol="getInitialView"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="8" lineNum="21" parent="globals/garmin_altimeterApp" pc="268435591" symbol="getInitialView"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="9" lineNum="7" parent="globals/garmin_altimeterApp" pc="268435658" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="9" lineNum="8" parent="globals/garmin_altimeterApp" pc="268435660" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="10" lineNum="16" parent="globals/garmin_altimeterApp" pc="268435679" symbol="onStop"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="11" lineNum="58" parent="globals/garmin_altimeterView" pc="268435682" symbol="onShow"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="11" lineNum="59" parent="globals/garmin_altimeterView" pc="268435684" symbol="onShow"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="11" lineNum="60" parent="globals/garmin_altimeterView" pc="268435697" symbol="onShow"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="11" lineNum="62" parent="globals/garmin_altimeterView" pc="268435710" symbol="onShow"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="11" lineNum="63" parent="globals/garmin_altimeterView" pc="268435723" symbol="onShow"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="11" lineNum="64" parent="globals/garmin_altimeterView" pc="268435736" symbol="onShow"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="11" lineNum="66" parent="globals/garmin_altimeterView" pc="268435746" symbol="onShow"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="12" lineNum="23" parent="globals/garmin_altimeterView" pc="268435788" symbol="onLayout"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="12" lineNum="24" parent="globals/garmin_altimeterView" pc="268435790" symbol="onLayout"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="27" parent="globals/garmin_altimeterView" pc="268435832" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="28" parent="globals/garmin_altimeterView" pc="268435836" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="30" parent="globals/garmin_altimeterView" pc="268435853" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="31" parent="globals/garmin_altimeterView" pc="268435859" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="32" parent="globals/garmin_altimeterView" pc="268435875" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="35" parent="globals/garmin_altimeterView" pc="268435879" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="37" parent="globals/garmin_altimeterView" pc="268435889" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="38" parent="globals/garmin_altimeterView" pc="268435900" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="39" parent="globals/garmin_altimeterView" pc="268435916" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="43" parent="globals/garmin_altimeterView" pc="268435938" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="44" parent="globals/garmin_altimeterView" pc="268435955" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="45" parent="globals/garmin_altimeterView" pc="268435980" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="46" parent="globals/garmin_altimeterView" pc="268435993" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="49" parent="globals/garmin_altimeterView" pc="268436006" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="13" lineNum="52" parent="globals/garmin_altimeterView" pc="268436034" symbol="updateAltitude"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="14" lineNum="17" parent="globals/garmin_altimeterView" pc="268436051" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="14" lineNum="18" parent="globals/garmin_altimeterView" pc="268436053" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="14" lineNum="19" parent="globals/garmin_altimeterView" pc="268436071" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="186" parent="globals/garmin_altimeterView" pc="268436106" symbol="onHide"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="187" parent="globals/garmin_altimeterView" pc="268436108" symbol="onHide"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="70" parent="globals/garmin_altimeterView" pc="268436127" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="71" parent="globals/garmin_altimeterView" pc="268436131" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="72" parent="globals/garmin_altimeterView" pc="268436144" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="74" parent="globals/garmin_altimeterView" pc="268436157" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="75" parent="globals/garmin_altimeterView" pc="268436167" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="77" parent="globals/garmin_altimeterView" pc="268436177" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="78" parent="globals/garmin_altimeterView" pc="268436188" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="79" parent="globals/garmin_altimeterView" pc="268436210" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="81" parent="globals/garmin_altimeterView" pc="268436222" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="82" parent="globals/garmin_altimeterView" pc="268436244" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="90" parent="globals/garmin_altimeterView" pc="268436281" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="91" parent="globals/garmin_altimeterView" pc="268436303" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="99" parent="globals/garmin_altimeterView" pc="268436363" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="103" parent="globals/garmin_altimeterView" pc="268436367" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="104" parent="globals/garmin_altimeterView" pc="268436383" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="105" parent="globals/garmin_altimeterView" pc="268436390" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="107" parent="globals/garmin_altimeterView" pc="268436400" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="108" parent="globals/garmin_altimeterView" pc="268436411" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="111" parent="globals/garmin_altimeterView" pc="268436421" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="112" parent="globals/garmin_altimeterView" pc="268436429" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="115" parent="globals/garmin_altimeterView" pc="268436436" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="116" parent="globals/garmin_altimeterView" pc="268436449" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="119" parent="globals/garmin_altimeterView" pc="268436456" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="120" parent="globals/garmin_altimeterView" pc="268436467" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="124" parent="globals/garmin_altimeterView" pc="268436477" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="125" parent="globals/garmin_altimeterView" pc="268436488" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="129" parent="globals/garmin_altimeterView" pc="268436498" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="130" parent="globals/garmin_altimeterView" pc="268436520" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="133" parent="globals/garmin_altimeterView" pc="268436532" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="136" parent="globals/garmin_altimeterView" pc="268436549" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="137" parent="globals/garmin_altimeterView" pc="268436571" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="140" parent="globals/garmin_altimeterView" pc="268436589" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="142" parent="globals/garmin_altimeterView" pc="268436608" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="143" parent="globals/garmin_altimeterView" pc="268436616" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="144" parent="globals/garmin_altimeterView" pc="268436637" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="145" parent="globals/garmin_altimeterView" pc="268436648" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="156" parent="globals/garmin_altimeterView" pc="268436687" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="157" parent="globals/garmin_altimeterView" pc="268436709" symbol="onUpdate"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="17" lineNum="10" parent="globals/garmin_altimeterDelegate" pc="268436758" symbol="onMenu"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="17" lineNum="11" parent="globals/garmin_altimeterDelegate" pc="268436760" symbol="onMenu"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="17" lineNum="12" parent="globals/garmin_altimeterDelegate" pc="268436841" symbol="onMenu"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="18" lineNum="6" parent="globals/garmin_altimeterDelegate" pc="268436844" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="18" lineNum="7" parent="globals/garmin_altimeterDelegate" pc="268436846" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="19" lineNum="11" parent="globals/garmin_altimeterMenuDelegate" pc="268436865" symbol="onMenuItem"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="19" lineNum="12" parent="globals/garmin_altimeterMenuDelegate" pc="268436867" symbol="onMenuItem"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="19" lineNum="13" parent="globals/garmin_altimeterMenuDelegate" pc="268436878" symbol="onMenuItem"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="19" lineNum="14" parent="globals/garmin_altimeterMenuDelegate" pc="268436902" symbol="onMenuItem"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="19" lineNum="15" parent="globals/garmin_altimeterMenuDelegate" pc="268436913" symbol="onMenuItem"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="20" lineNum="7" parent="globals/garmin_altimeterMenuDelegate" pc="268436938" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="20" lineNum="8" parent="globals/garmin_altimeterMenuDelegate" pc="268436940" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="21" lineNum="14" parent="globals/Rez/Layouts" pc="268436959" symbol="MainLayout"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="21" lineNum="15" parent="globals/Rez/Layouts" pc="268436971" symbol="MainLayout"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="21" lineNum="17" parent="globals/Rez/Layouts" pc="268436984" symbol="MainLayout"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="21" lineNum="19" parent="globals/Rez/Layouts" pc="268437118" symbol="MainLayout"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="21" lineNum="20" parent="globals/Rez/Layouts" pc="268437223" symbol="MainLayout"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="21" lineNum="22" parent="globals/Rez/Layouts" pc="268437260" symbol="MainLayout"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="22" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268437287" symbol="&lt;init&gt;"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="23" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268437306" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="23" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268437308" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="23" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268437326" symbol="initialize"/>
-        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="23" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268437382" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="1" lineNum="4" parent="globals/JumpSummaryView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="2" lineNum="28" parent="globals" pc="268435479" symbol="getApp"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="2" lineNum="29" parent="globals" pc="268435489" symbol="getApp"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="3" lineNum="11" parent="globals/garmin_altimeterView" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="3" lineNum="47" parent="globals/garmin_altimeterView" pc="268435523" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435538" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="5" lineNum="3" parent="globals/garmin_altimeterDelegate" pc="268435562" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="6" lineNum="5" parent="globals/garmin_altimeterApp" pc="268435581" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="7" lineNum="4" parent="globals/JumpListView" pc="268435600" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="8" lineNum="5" parent="globals/JumpDetailView" pc="268435619" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc" id="9" lineNum="3" parent="globals/JumpDetailDelegate" pc="268435638" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="10" lineNum="3" parent="globals/JumpSummaryDelegate" pc="268435657" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="11" lineNum="5" parent="globals/garmin_altimeterMenuDelegate" pc="268435676" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="12" lineNum="3" parent="globals/JumpListDelegate" pc="268435695" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="13" lineNum="8" parent="globals/JumpSummaryView" pc="268435714" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="13" lineNum="9" parent="globals/JumpSummaryView" pc="268435716" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="13" lineNum="10" parent="globals/JumpSummaryView" pc="268435734" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="13" parent="globals/JumpSummaryView" pc="268435765" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="14" parent="globals/JumpSummaryView" pc="268435769" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="15" parent="globals/JumpSummaryView" pc="268435788" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="16" parent="globals/JumpSummaryView" pc="268435807" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="18" parent="globals/JumpSummaryView" pc="268435826" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="22" parent="globals/JumpSummaryView" pc="268435848" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="24" parent="globals/JumpSummaryView" pc="268435860" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="29" parent="globals/JumpSummaryView" pc="268435882" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="37" parent="globals/JumpSummaryView" pc="268435919" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="42" parent="globals/JumpSummaryView" pc="268435941" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="50" parent="globals/JumpSummaryView" pc="268435989" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryView.mc" id="14" lineNum="55" parent="globals/JumpSummaryView" pc="268436011" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="455" parent="globals/garmin_altimeterView" pc="268436049" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="456" parent="globals/garmin_altimeterView" pc="268436053" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="457" parent="globals/garmin_altimeterView" pc="268436065" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="460" parent="globals/garmin_altimeterView" pc="268436069" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="462" parent="globals/garmin_altimeterView" pc="268436103" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="465" parent="globals/garmin_altimeterView" pc="268436107" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="467" parent="globals/garmin_altimeterView" pc="268436117" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="468" parent="globals/garmin_altimeterView" pc="268436123" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="471" parent="globals/garmin_altimeterView" pc="268436127" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="472" parent="globals/garmin_altimeterView" pc="268436140" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="474" parent="globals/garmin_altimeterView" pc="268436157" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="475" parent="globals/garmin_altimeterView" pc="268436171" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="478" parent="globals/garmin_altimeterView" pc="268436175" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="15" lineNum="480" parent="globals/garmin_altimeterView" pc="268436185" symbol="onPosition"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="89" parent="globals/garmin_altimeterView" pc="268436249" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="90" parent="globals/garmin_altimeterView" pc="268436253" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="93" parent="globals/garmin_altimeterView" pc="268436256" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="94" parent="globals/garmin_altimeterView" pc="268436267" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="95" parent="globals/garmin_altimeterView" pc="268436288" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="96" parent="globals/garmin_altimeterView" pc="268436304" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="98" parent="globals/garmin_altimeterView" pc="268436326" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="100" parent="globals/garmin_altimeterView" pc="268436343" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="101" parent="globals/garmin_altimeterView" pc="268436350" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="104" parent="globals/garmin_altimeterView" pc="268436363" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="107" parent="globals/garmin_altimeterView" pc="268436380" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="108" parent="globals/garmin_altimeterView" pc="268436386" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="109" parent="globals/garmin_altimeterView" pc="268436402" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="114" parent="globals/garmin_altimeterView" pc="268436406" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="115" parent="globals/garmin_altimeterView" pc="268436417" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="116" parent="globals/garmin_altimeterView" pc="268436433" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="118" parent="globals/garmin_altimeterView" pc="268436452" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="119" parent="globals/garmin_altimeterView" pc="268436469" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="120" parent="globals/garmin_altimeterView" pc="268436494" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="121" parent="globals/garmin_altimeterView" pc="268436507" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="122" parent="globals/garmin_altimeterView" pc="268436520" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="123" parent="globals/garmin_altimeterView" pc="268436530" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="124" parent="globals/garmin_altimeterView" pc="268436543" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="127" parent="globals/garmin_altimeterView" pc="268436556" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="128" parent="globals/garmin_altimeterView" pc="268436572" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="131" parent="globals/garmin_altimeterView" pc="268436576" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="134" parent="globals/garmin_altimeterView" pc="268436595" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="135" parent="globals/garmin_altimeterView" pc="268436612" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="138" parent="globals/garmin_altimeterView" pc="268436628" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="139" parent="globals/garmin_altimeterView" pc="268436658" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="142" parent="globals/garmin_altimeterView" pc="268436686" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="143" parent="globals/garmin_altimeterView" pc="268436697" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="146" parent="globals/garmin_altimeterView" pc="268436725" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="150" parent="globals/garmin_altimeterView" pc="268436745" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="151" parent="globals/garmin_altimeterView" pc="268436761" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="153" parent="globals/garmin_altimeterView" pc="268436771" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="16" lineNum="160" parent="globals/garmin_altimeterView" pc="268436849" symbol="updateAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="408" parent="globals/garmin_altimeterView" pc="268436866" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="409" parent="globals/garmin_altimeterView" pc="268436868" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="410" parent="globals/garmin_altimeterView" pc="268436885" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="411" parent="globals/garmin_altimeterView" pc="268436894" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="412" parent="globals/garmin_altimeterView" pc="268436911" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="413" parent="globals/garmin_altimeterView" pc="268436920" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="414" parent="globals/garmin_altimeterView" pc="268436937" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="415" parent="globals/garmin_altimeterView" pc="268436946" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="416" parent="globals/garmin_altimeterView" pc="268436963" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="417" parent="globals/garmin_altimeterView" pc="268436972" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="418" parent="globals/garmin_altimeterView" pc="268436989" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="419" parent="globals/garmin_altimeterView" pc="268436998" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="420" parent="globals/garmin_altimeterView" pc="268437015" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="17" lineNum="423" parent="globals/garmin_altimeterView" pc="268437024" symbol="getPhaseLabel"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="18" lineNum="426" parent="globals/garmin_altimeterView" pc="268437030" symbol="saveCompletedJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="18" lineNum="427" parent="globals/garmin_altimeterView" pc="268437034" symbol="saveCompletedJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="18" lineNum="430" parent="globals/garmin_altimeterView" pc="268437059" symbol="saveCompletedJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="18" lineNum="433" parent="globals/garmin_altimeterView" pc="268437084" symbol="saveCompletedJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="18" lineNum="436" parent="globals/garmin_altimeterView" pc="268437109" symbol="saveCompletedJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="18" lineNum="438" parent="globals/garmin_altimeterView" pc="268437133" symbol="saveCompletedJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="18" lineNum="445" parent="globals/garmin_altimeterView" pc="268437160" symbol="saveCompletedJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="64" parent="globals/garmin_altimeterView" pc="268437227" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="66" parent="globals/garmin_altimeterView" pc="268437229" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="67" parent="globals/garmin_altimeterView" pc="268437240" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="71" parent="globals/garmin_altimeterView" pc="268437249" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="72" parent="globals/garmin_altimeterView" pc="268437260" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="76" parent="globals/garmin_altimeterView" pc="268437284" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="77" parent="globals/garmin_altimeterView" pc="268437295" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="81" parent="globals/garmin_altimeterView" pc="268437319" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="82" parent="globals/garmin_altimeterView" pc="268437330" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="19" lineNum="86" parent="globals/garmin_altimeterView" pc="268437354" symbol="getSyntheticAltitude"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="20" lineNum="404" parent="globals/garmin_altimeterView" pc="268437360" symbol="onHide"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="20" lineNum="405" parent="globals/garmin_altimeterView" pc="268437362" symbol="onHide"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="21" lineNum="491" parent="globals/garmin_altimeterView" pc="268437381" symbol="startFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="21" lineNum="492" parent="globals/garmin_altimeterView" pc="268437385" symbol="startFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="21" lineNum="493" parent="globals/garmin_altimeterView" pc="268437398" symbol="startFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="21" lineNum="496" parent="globals/garmin_altimeterView" pc="268437402" symbol="startFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="21" lineNum="497" parent="globals/garmin_altimeterView" pc="268437426" symbol="startFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="21" lineNum="500" parent="globals/garmin_altimeterView" pc="268437445" symbol="startFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="21" lineNum="509" parent="globals/garmin_altimeterView" pc="268437530" symbol="startFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="21" lineNum="510" parent="globals/garmin_altimeterView" pc="268437543" symbol="startFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="21" lineNum="512" parent="globals/garmin_altimeterView" pc="268437561" symbol="startFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="245" parent="globals/garmin_altimeterView" pc="268437589" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="246" parent="globals/garmin_altimeterView" pc="268437591" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="247" parent="globals/garmin_altimeterView" pc="268437603" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="248" parent="globals/garmin_altimeterView" pc="268437616" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="250" parent="globals/garmin_altimeterView" pc="268437629" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="251" parent="globals/garmin_altimeterView" pc="268437642" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="252" parent="globals/garmin_altimeterView" pc="268437655" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="254" parent="globals/garmin_altimeterView" pc="268437665" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="255" parent="globals/garmin_altimeterView" pc="268437674" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="257" parent="globals/garmin_altimeterView" pc="268437687" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="258" parent="globals/garmin_altimeterView" pc="268437700" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="259" parent="globals/garmin_altimeterView" pc="268437713" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="261" parent="globals/garmin_altimeterView" pc="268437726" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="263" parent="globals/garmin_altimeterView" pc="268437739" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="264" parent="globals/garmin_altimeterView" pc="268437752" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="265" parent="globals/garmin_altimeterView" pc="268437765" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="266" parent="globals/garmin_altimeterView" pc="268437778" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="268" parent="globals/garmin_altimeterView" pc="268437791" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="269" parent="globals/garmin_altimeterView" pc="268437804" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="270" parent="globals/garmin_altimeterView" pc="268437817" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="272" parent="globals/garmin_altimeterView" pc="268437830" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="273" parent="globals/garmin_altimeterView" pc="268437843" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="276" parent="globals/garmin_altimeterView" pc="268437856" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="282" parent="globals/garmin_altimeterView" pc="268437897" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="283" parent="globals/garmin_altimeterView" pc="268437909" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="22" lineNum="288" parent="globals/garmin_altimeterView" pc="268437946" symbol="onShow"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="23" lineNum="60" parent="globals/garmin_altimeterView" pc="268437960" symbol="onLayout"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="23" lineNum="61" parent="globals/garmin_altimeterView" pc="268437962" symbol="onLayout"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="24" lineNum="519" parent="globals/garmin_altimeterView" pc="268438004" symbol="stopAndSaveFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="24" lineNum="520" parent="globals/garmin_altimeterView" pc="268438006" symbol="stopAndSaveFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="24" lineNum="521" parent="globals/garmin_altimeterView" pc="268438018" symbol="stopAndSaveFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="24" lineNum="524" parent="globals/garmin_altimeterView" pc="268438022" symbol="stopAndSaveFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="24" lineNum="525" parent="globals/garmin_altimeterView" pc="268438042" symbol="stopAndSaveFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="24" lineNum="528" parent="globals/garmin_altimeterView" pc="268438063" symbol="stopAndSaveFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="24" lineNum="529" parent="globals/garmin_altimeterView" pc="268438081" symbol="stopAndSaveFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="24" lineNum="531" parent="globals/garmin_altimeterView" pc="268438090" symbol="stopAndSaveFitRecording"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="25" lineNum="54" parent="globals/garmin_altimeterView" pc="268438112" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="25" lineNum="55" parent="globals/garmin_altimeterView" pc="268438114" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="25" lineNum="56" parent="globals/garmin_altimeterView" pc="268438132" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="163" parent="globals/garmin_altimeterView" pc="268438167" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="164" parent="globals/garmin_altimeterView" pc="268438171" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="166" parent="globals/garmin_altimeterView" pc="268438187" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="167" parent="globals/garmin_altimeterView" pc="268438204" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="168" parent="globals/garmin_altimeterView" pc="268438238" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="169" parent="globals/garmin_altimeterView" pc="268438251" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="170" parent="globals/garmin_altimeterView" pc="268438261" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="171" parent="globals/garmin_altimeterView" pc="268438277" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="173" parent="globals/garmin_altimeterView" pc="268438290" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="174" parent="globals/garmin_altimeterView" pc="268438304" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="177" parent="globals/garmin_altimeterView" pc="268438320" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="180" parent="globals/garmin_altimeterView" pc="268438324" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="181" parent="globals/garmin_altimeterView" pc="268438341" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="182" parent="globals/garmin_altimeterView" pc="268438361" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="185" parent="globals/garmin_altimeterView" pc="268438380" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="186" parent="globals/garmin_altimeterView" pc="268438391" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="188" parent="globals/garmin_altimeterView" pc="268438413" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="191" parent="globals/garmin_altimeterView" pc="268438426" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="192" parent="globals/garmin_altimeterView" pc="268438443" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="193" parent="globals/garmin_altimeterView" pc="268438456" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="194" parent="globals/garmin_altimeterView" pc="268438466" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="195" parent="globals/garmin_altimeterView" pc="268438476" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="197" parent="globals/garmin_altimeterView" pc="268438489" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="201" parent="globals/garmin_altimeterView" pc="268438504" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="204" parent="globals/garmin_altimeterView" pc="268438508" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="205" parent="globals/garmin_altimeterView" pc="268438525" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="206" parent="globals/garmin_altimeterView" pc="268438539" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="209" parent="globals/garmin_altimeterView" pc="268438552" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="210" parent="globals/garmin_altimeterView" pc="268438563" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="212" parent="globals/garmin_altimeterView" pc="268438585" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="215" parent="globals/garmin_altimeterView" pc="268438598" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="216" parent="globals/garmin_altimeterView" pc="268438615" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="217" parent="globals/garmin_altimeterView" pc="268438628" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="218" parent="globals/garmin_altimeterView" pc="268438638" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="221" parent="globals/garmin_altimeterView" pc="268438654" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="224" parent="globals/garmin_altimeterView" pc="268438658" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="225" parent="globals/garmin_altimeterView" pc="268438675" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="226" parent="globals/garmin_altimeterView" pc="268438726" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="227" parent="globals/garmin_altimeterView" pc="268438743" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="230" parent="globals/garmin_altimeterView" pc="268438756" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="231" parent="globals/garmin_altimeterView" pc="268438776" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="232" parent="globals/garmin_altimeterView" pc="268438789" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="233" parent="globals/garmin_altimeterView" pc="268438799" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="234" parent="globals/garmin_altimeterView" pc="268438811" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="26" lineNum="237" parent="globals/garmin_altimeterView" pc="268438829" symbol="updateJumpPhase"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="294" parent="globals/garmin_altimeterView" pc="268438846" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="296" parent="globals/garmin_altimeterView" pc="268438850" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="297" parent="globals/garmin_altimeterView" pc="268438863" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="299" parent="globals/garmin_altimeterView" pc="268438876" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="300" parent="globals/garmin_altimeterView" pc="268438886" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="302" parent="globals/garmin_altimeterView" pc="268438896" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="303" parent="globals/garmin_altimeterView" pc="268438907" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="304" parent="globals/garmin_altimeterView" pc="268438929" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="306" parent="globals/garmin_altimeterView" pc="268438941" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="307" parent="globals/garmin_altimeterView" pc="268438963" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="315" parent="globals/garmin_altimeterView" pc="268439000" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="316" parent="globals/garmin_altimeterView" pc="268439022" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="324" parent="globals/garmin_altimeterView" pc="268439082" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="328" parent="globals/garmin_altimeterView" pc="268439086" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="329" parent="globals/garmin_altimeterView" pc="268439102" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="330" parent="globals/garmin_altimeterView" pc="268439109" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="332" parent="globals/garmin_altimeterView" pc="268439119" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="333" parent="globals/garmin_altimeterView" pc="268439130" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="336" parent="globals/garmin_altimeterView" pc="268439140" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="337" parent="globals/garmin_altimeterView" pc="268439148" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="340" parent="globals/garmin_altimeterView" pc="268439155" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="341" parent="globals/garmin_altimeterView" pc="268439168" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="344" parent="globals/garmin_altimeterView" pc="268439175" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="345" parent="globals/garmin_altimeterView" pc="268439186" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="349" parent="globals/garmin_altimeterView" pc="268439196" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="350" parent="globals/garmin_altimeterView" pc="268439207" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="354" parent="globals/garmin_altimeterView" pc="268439217" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="355" parent="globals/garmin_altimeterView" pc="268439239" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="358" parent="globals/garmin_altimeterView" pc="268439251" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="361" parent="globals/garmin_altimeterView" pc="268439268" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="362" parent="globals/garmin_altimeterView" pc="268439290" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="365" parent="globals/garmin_altimeterView" pc="268439308" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="367" parent="globals/garmin_altimeterView" pc="268439327" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="368" parent="globals/garmin_altimeterView" pc="268439335" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="369" parent="globals/garmin_altimeterView" pc="268439356" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="370" parent="globals/garmin_altimeterView" pc="268439367" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="381" parent="globals/garmin_altimeterView" pc="268439406" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="382" parent="globals/garmin_altimeterView" pc="268439428" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="391" parent="globals/garmin_altimeterView" pc="268439476" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" id="27" lineNum="392" parent="globals/garmin_altimeterView" pc="268439498" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="28" lineNum="22" parent="globals/garmin_altimeterDelegate" pc="268439542" symbol="onMenu"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="28" lineNum="23" parent="globals/garmin_altimeterDelegate" pc="268439544" symbol="onMenu"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="28" lineNum="29" parent="globals/garmin_altimeterDelegate" pc="268439625" symbol="onMenu"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="29" lineNum="5" parent="globals/garmin_altimeterDelegate" pc="268439628" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="29" lineNum="6" parent="globals/garmin_altimeterDelegate" pc="268439630" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="30" lineNum="10" parent="globals/garmin_altimeterDelegate" pc="268439649" symbol="onNextPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="30" lineNum="11" parent="globals/garmin_altimeterDelegate" pc="268439653" symbol="onNextPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="30" lineNum="13" parent="globals/garmin_altimeterDelegate" pc="268439677" symbol="onNextPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterDelegate.mc" id="30" lineNum="19" parent="globals/garmin_altimeterDelegate" pc="268439724" symbol="onNextPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="31" lineNum="43" parent="globals/JumpStorage" pc="268439727" symbol="getJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="31" lineNum="44" parent="globals/JumpStorage" pc="268439731" symbol="getJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="31" lineNum="47" parent="globals/JumpStorage" pc="268439755" symbol="getJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="32" lineNum="18" parent="globals/JumpStorage" pc="268439773" symbol="saveJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="32" lineNum="24" parent="globals/JumpStorage" pc="268439777" symbol="saveJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="32" lineNum="26" parent="globals/JumpStorage" pc="268439796" symbol="saveJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="32" lineNum="34" parent="globals/JumpStorage" pc="268439854" symbol="saveJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="32" lineNum="37" parent="globals/JumpStorage" pc="268439878" symbol="saveJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="32" lineNum="38" parent="globals/JumpStorage" pc="268439898" symbol="saveJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="32" lineNum="40" parent="globals/JumpStorage" pc="268439921" symbol="saveJump"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="34" lineNum="8" parent="globals/JumpStorage" pc="268439924" symbol="getJumpCount"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="34" lineNum="9" parent="globals/JumpStorage" pc="268439928" symbol="getJumpCount"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="34" lineNum="11" parent="globals/JumpStorage" pc="268439950" symbol="getJumpCount"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="34" lineNum="12" parent="globals/JumpStorage" pc="268439956" symbol="getJumpCount"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" id="34" lineNum="15" parent="globals/JumpStorage" pc="268439965" symbol="getJumpCount"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="35" lineNum="12" parent="globals/garmin_altimeterApp" pc="268439968" symbol="onStart"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="36" lineNum="20" parent="globals/garmin_altimeterApp" pc="268439971" symbol="getInitialView"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="36" lineNum="21" parent="globals/garmin_altimeterApp" pc="268439973" symbol="getInitialView"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="37" lineNum="7" parent="globals/garmin_altimeterApp" pc="268440040" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="37" lineNum="8" parent="globals/garmin_altimeterApp" pc="268440042" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterApp.mc" id="38" lineNum="16" parent="globals/garmin_altimeterApp" pc="268440061" symbol="onStop"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="39" lineNum="23" parent="globals/JumpListView" pc="268440064" symbol="selectNewer"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="39" lineNum="24" parent="globals/JumpListView" pc="268440068" symbol="selectNewer"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="39" lineNum="26" parent="globals/JumpListView" pc="268440087" symbol="selectNewer"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="39" lineNum="27" parent="globals/JumpListView" pc="268440101" symbol="selectNewer"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="39" lineNum="28" parent="globals/JumpListView" pc="268440120" symbol="selectNewer"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="40" lineNum="32" parent="globals/JumpListView" pc="268440140" symbol="getSelectedJumpNumber"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="40" lineNum="33" parent="globals/JumpListView" pc="268440142" symbol="getSelectedJumpNumber"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="41" lineNum="16" parent="globals/JumpListView" pc="268440151" symbol="selectOlder"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="41" lineNum="17" parent="globals/JumpListView" pc="268440153" symbol="selectOlder"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="41" lineNum="18" parent="globals/JumpListView" pc="268440170" symbol="selectOlder"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="41" lineNum="19" parent="globals/JumpListView" pc="268440189" symbol="selectOlder"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="42" lineNum="9" parent="globals/JumpListView" pc="268440209" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="42" lineNum="10" parent="globals/JumpListView" pc="268440211" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="42" lineNum="12" parent="globals/JumpListView" pc="268440229" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="42" lineNum="13" parent="globals/JumpListView" pc="268440259" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="36" parent="globals/JumpListView" pc="268440285" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="37" parent="globals/JumpListView" pc="268440289" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="38" parent="globals/JumpListView" pc="268440308" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="40" parent="globals/JumpListView" pc="268440327" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="44" parent="globals/JumpListView" pc="268440349" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="46" parent="globals/JumpListView" pc="268440361" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="59" parent="globals/JumpListView" pc="268440383" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="60" parent="globals/JumpListView" pc="268440394" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="68" parent="globals/JumpListView" pc="268440428" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="71" parent="globals/JumpListView" pc="268440432" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="73" parent="globals/JumpListView" pc="268440448" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="74" parent="globals/JumpListView" pc="268440456" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="77" parent="globals/JumpListView" pc="268440463" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="79" parent="globals/JumpListView" pc="268440470" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="80" parent="globals/JumpListView" pc="268440488" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="82" parent="globals/JumpListView" pc="268440495" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="83" parent="globals/JumpListView" pc="268440506" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="86" parent="globals/JumpListView" pc="268440512" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="87" parent="globals/JumpListView" pc="268440526" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="92" parent="globals/JumpListView" pc="268440551" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="98" parent="globals/JumpListView" pc="268440573" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="100" parent="globals/JumpListView" pc="268440580" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="101" parent="globals/JumpListView" pc="268440594" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="104" parent="globals/JumpListView" pc="268440604" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListView.mc" id="43" lineNum="112" parent="globals/JumpListView" pc="268440655" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="44" lineNum="17" parent="globals/JumpDetailView" pc="268440679" symbol="formatDuration"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="44" lineNum="18" parent="globals/JumpDetailView" pc="268440683" symbol="formatDuration"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="44" lineNum="19" parent="globals/JumpDetailView" pc="268440693" symbol="formatDuration"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="44" lineNum="21" parent="globals/JumpDetailView" pc="268440703" symbol="formatDuration"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="45" lineNum="10" parent="globals/JumpDetailView" pc="268440743" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="45" lineNum="11" parent="globals/JumpDetailView" pc="268440745" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="45" lineNum="13" parent="globals/JumpDetailView" pc="268440763" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="45" lineNum="14" parent="globals/JumpDetailView" pc="268440793" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="26" parent="globals/JumpDetailView" pc="268440804" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="27" parent="globals/JumpDetailView" pc="268440808" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="28" parent="globals/JumpDetailView" pc="268440827" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="30" parent="globals/JumpDetailView" pc="268440854" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="32" parent="globals/JumpDetailView" pc="268440860" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="35" parent="globals/JumpDetailView" pc="268440864" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="37" parent="globals/JumpDetailView" pc="268440868" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="40" parent="globals/JumpDetailView" pc="268440884" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="44" parent="globals/JumpDetailView" pc="268440906" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="46" parent="globals/JumpDetailView" pc="268440918" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="47" parent="globals/JumpDetailView" pc="268440924" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="52" parent="globals/JumpDetailView" pc="268440946" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="60" parent="globals/JumpDetailView" pc="268440980" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="63" parent="globals/JumpDetailView" pc="268440984" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="68" parent="globals/JumpDetailView" pc="268441006" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="76" parent="globals/JumpDetailView" pc="268441063" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="81" parent="globals/JumpDetailView" pc="268441085" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="90" parent="globals/JumpDetailView" pc="268441139" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="99" parent="globals/JumpDetailView" pc="268441193" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailView.mc" id="46" lineNum="108" parent="globals/JumpDetailView" pc="268441247" symbol="onUpdate"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc" id="47" lineNum="9" parent="globals/JumpDetailDelegate" pc="268441305" symbol="onBack"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc" id="47" lineNum="10" parent="globals/JumpDetailDelegate" pc="268441307" symbol="onBack"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc" id="47" lineNum="11" parent="globals/JumpDetailDelegate" pc="268441328" symbol="onBack"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc" id="48" lineNum="5" parent="globals/JumpDetailDelegate" pc="268441331" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpDetailDelegate.mc" id="48" lineNum="6" parent="globals/JumpDetailDelegate" pc="268441333" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="49" lineNum="31" parent="globals/JumpSummaryDelegate" pc="268441352" symbol="onBack"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="49" lineNum="32" parent="globals/JumpSummaryDelegate" pc="268441354" symbol="onBack"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="49" lineNum="33" parent="globals/JumpSummaryDelegate" pc="268441375" symbol="onBack"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="50" lineNum="7" parent="globals/JumpSummaryDelegate" pc="268441378" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="50" lineNum="8" parent="globals/JumpSummaryDelegate" pc="268441380" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="50" lineNum="9" parent="globals/JumpSummaryDelegate" pc="268441398" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="51" lineNum="13" parent="globals/JumpSummaryDelegate" pc="268441409" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="51" lineNum="14" parent="globals/JumpSummaryDelegate" pc="268441413" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="51" lineNum="16" parent="globals/JumpSummaryDelegate" pc="268441437" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="51" lineNum="17" parent="globals/JumpSummaryDelegate" pc="268441457" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="51" lineNum="20" parent="globals/JumpSummaryDelegate" pc="268441463" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="51" lineNum="22" parent="globals/JumpSummaryDelegate" pc="268441487" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpSummaryDelegate.mc" id="51" lineNum="28" parent="globals/JumpSummaryDelegate" pc="268441534" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="52" lineNum="11" parent="globals/garmin_altimeterMenuDelegate" pc="268441537" symbol="onMenuItem"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="52" lineNum="12" parent="globals/garmin_altimeterMenuDelegate" pc="268441539" symbol="onMenuItem"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="52" lineNum="13" parent="globals/garmin_altimeterMenuDelegate" pc="268441550" symbol="onMenuItem"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="52" lineNum="14" parent="globals/garmin_altimeterMenuDelegate" pc="268441574" symbol="onMenuItem"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="52" lineNum="15" parent="globals/garmin_altimeterMenuDelegate" pc="268441585" symbol="onMenuItem"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="53" lineNum="7" parent="globals/garmin_altimeterMenuDelegate" pc="268441610" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterMenuDelegate.mc" id="53" lineNum="8" parent="globals/garmin_altimeterMenuDelegate" pc="268441612" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="54" lineNum="45" parent="globals/JumpListDelegate" pc="268441631" symbol="onBack"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="54" lineNum="46" parent="globals/JumpListDelegate" pc="268441633" symbol="onBack"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="54" lineNum="47" parent="globals/JumpListDelegate" pc="268441654" symbol="onBack"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="55" lineNum="19" parent="globals/JumpListDelegate" pc="268441657" symbol="onPreviousPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="55" lineNum="20" parent="globals/JumpListDelegate" pc="268441659" symbol="onPreviousPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="55" lineNum="21" parent="globals/JumpListDelegate" pc="268441677" symbol="onPreviousPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="56" lineNum="7" parent="globals/JumpListDelegate" pc="268441680" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="56" lineNum="8" parent="globals/JumpListDelegate" pc="268441682" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="56" lineNum="9" parent="globals/JumpListDelegate" pc="268441700" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="57" lineNum="13" parent="globals/JumpListDelegate" pc="268441711" symbol="onNextPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="57" lineNum="14" parent="globals/JumpListDelegate" pc="268441713" symbol="onNextPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="57" lineNum="15" parent="globals/JumpListDelegate" pc="268441731" symbol="onNextPage"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="58" lineNum="25" parent="globals/JumpListDelegate" pc="268441734" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="58" lineNum="26" parent="globals/JumpListDelegate" pc="268441738" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="58" lineNum="29" parent="globals/JumpListDelegate" pc="268441757" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="58" lineNum="30" parent="globals/JumpListDelegate" pc="268441768" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="58" lineNum="33" parent="globals/JumpListDelegate" pc="268441774" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="58" lineNum="36" parent="globals/JumpListDelegate" pc="268441800" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/source/JumpListDelegate.mc" id="58" lineNum="42" parent="globals/JumpListDelegate" pc="268441845" symbol="onSelect"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="59" lineNum="14" parent="globals/Rez/Layouts" pc="268441848" symbol="MainLayout"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="59" lineNum="15" parent="globals/Rez/Layouts" pc="268441860" symbol="MainLayout"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="59" lineNum="17" parent="globals/Rez/Layouts" pc="268441873" symbol="MainLayout"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="59" lineNum="19" parent="globals/Rez/Layouts" pc="268442007" symbol="MainLayout"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="59" lineNum="20" parent="globals/Rez/Layouts" pc="268442112" symbol="MainLayout"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="59" lineNum="22" parent="globals/Rez/Layouts" pc="268442149" symbol="MainLayout"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="60" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268442176" symbol="&lt;init&gt;"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="61" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268442195" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="61" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268442197" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="61" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268442215" symbol="initialize"/>
+        <entry filename="/home/janee/garmin_altimeter/garmin_altimeter/bin/gen/006-B3111-00/source/Rez.mcgen" id="61" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268442271" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
-        <entry id="9" object="true" symbol="garmin_altimeterMenuDelegate"/>
+        <entry id="16" object="true" symbol="garmin_altimeterMenuDelegate"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="8389346" symbol="text"/>
+        <entry id="77" symbol="climbing"/>
+        <entry field="true" id="29" symbol="gpsTrack"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="47" symbol="syntheticStep"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="21" method="true" symbol="MainLayout"/>
-        <entry field="true" id="12" symbol="calibrationTotal"/>
-        <entry id="10" object="true" symbol="garmin_altimeterView"/>
+        <entry field="true" id="52" symbol="verticalSpeed"/>
+        <entry id="8388638" module="true" symbol="ActivityRecording"/>
+        <entry id="68" method="true" symbol="MainLayout"/>
+        <entry field="true" id="51" symbol="useSyntheticTest"/>
+        <entry field="true" id="24" symbol="fitSession"/>
+        <entry field="true" id="61" symbol="selectedJumpNumber"/>
+        <entry id="59" method="true" symbol="selectNewer"/>
+        <entry field="true" id="8388890" symbol="sport"/>
+        <entry field="true" id="44" symbol="slowDescentSamples"/>
+        <entry id="49" method="true" symbol="updateJumpPhase"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry id="76" symbol="ground"/>
+        <entry id="12" object="true" symbol="JumpSummaryDelegate"/>
+        <entry field="true" id="20" symbol="calibrationTotal"/>
+        <entry id="40" method="true" symbol="onPosition"/>
+        <entry id="78" symbol="landed"/>
+        <entry id="17" object="true" symbol="garmin_altimeterView"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="23" symbol="AppName"/>
+        <entry id="55" method="true" symbol="getJump"/>
+        <entry field="true" id="28" symbol="gpsRunning"/>
+        <entry field="true" id="70" symbol="AppName"/>
         <entry field="true" id="8388963" symbol="altitude"/>
+        <entry id="8" object="true" symbol="JumpDetailView"/>
+        <entry field="true" id="39" symbol="maximumDescentSpeed"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8389345" symbol="rezId"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="10" object="true" symbol="JumpListView"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry field="true" id="65" symbol="listView"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="26" symbol="prompt"/>
-        <entry field="true" id="20" symbol="id_monkey"/>
+        <entry field="true" id="73" symbol="prompt"/>
+        <entry field="true" id="67" symbol="id_monkey"/>
+        <entry id="56" method="true" symbol="getJumpCount"/>
+        <entry field="true" id="23" symbol="fastDescentSamples"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry id="8" object="true" symbol="garmin_altimeterDelegate"/>
+        <entry id="15" object="true" symbol="garmin_altimeterDelegate"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="28" symbol="item_2"/>
-        <entry id="27" symbol="item_1"/>
-        <entry id="18" module="true" symbol="Menus"/>
+        <entry id="80" symbol="item_2"/>
+        <entry id="79" symbol="item_1"/>
+        <entry id="8389079" method="true" symbol="onPreviousPage"/>
+        <entry id="54" module="true" symbol="Menus"/>
+        <entry id="58" method="true" symbol="getSelectedJumpNumber"/>
         <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="25" symbol="freefallStartTime"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="35" symbol="landingCandidateTime"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="45" method="true" symbol="startFitRecording"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="13" symbol="groundAltitude"/>
+        <entry id="75" symbol="canopy"/>
+        <entry field="true" id="33" symbol="jumpPhase"/>
+        <entry id="62" method="true" symbol="formatDuration"/>
+        <entry id="74" symbol="freefall"/>
+        <entry id="46" method="true" symbol="stopAndSaveFitRecording"/>
+        <entry field="true" id="30" symbol="groundAltitude"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="22" object="true" symbol="MainMenu"/>
+        <entry field="true" id="21" symbol="canopyStartTime"/>
+        <entry field="true" id="64" symbol="summaryView"/>
+        <entry id="69" object="true" symbol="MainMenu"/>
+        <entry id="13" object="true" symbol="JumpSummaryView"/>
+        <entry field="true" id="36" symbol="landingTime"/>
         <entry id="8388644" module="true" symbol="System"/>
+        <entry id="11" object="true" symbol="JumpStorage"/>
+        <entry id="7" object="true" symbol="JumpDetailDelegate"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="37" symbol="lastGpsTimestamp"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="7" object="true" symbol="garmin_altimeterApp"/>
-        <entry field="true" id="19" symbol="LauncherIcon"/>
+        <entry id="14" object="true" symbol="garmin_altimeterApp"/>
+        <entry field="true" id="66" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8388643" module="true" symbol="Sensor"/>
-        <entry field="true" id="14" symbol="iscalibrating"/>
-        <entry field="true" id="16" symbol="updateTimer"/>
+        <entry field="true" id="32" symbol="iscalibrating"/>
+        <entry field="true" id="50" symbol="updateTimer"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="27" method="true" symbol="getSyntheticAltitude"/>
+        <entry field="true" id="42" symbol="previousSampleTime"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="8388891" symbol="subSport"/>
+        <entry id="60" method="true" symbol="selectOlder"/>
+        <entry field="true" id="8388892" symbol="name"/>
+        <entry field="true" id="63" symbol="jumpNumber"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="8389347" symbol="color"/>
+        <entry field="true" id="22" symbol="climbStartTime"/>
+        <entry id="57" method="true" symbol="saveJump"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
-        <entry id="17" module="true" symbol="Layouts"/>
-        <entry field="true" id="11" symbol="calibrationSamples"/>
-        <entry id="15" method="true" symbol="updateAltitude"/>
+        <entry field="true" id="31" symbol="hasStarted"/>
+        <entry id="53" module="true" symbol="Layouts"/>
+        <entry field="true" id="19" symbol="calibrationSamples"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry field="true" id="18" symbol="storage"/>
+        <entry id="34" symbol="calibrating"/>
+        <entry id="48" method="true" symbol="updateAltitude"/>
+        <entry id="26" method="true" symbol="getPhaseLabel"/>
         <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="43" method="true" symbol="saveCompletedJump"/>
+        <entry id="8389078" method="true" symbol="onNextPage"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="25" symbol="menu_label_2"/>
-        <entry field="true" id="24" symbol="menu_label_1"/>
+        <entry id="9" object="true" symbol="JumpListDelegate"/>
+        <entry field="true" id="38" symbol="maximumAltitude"/>
+        <entry field="true" id="72" symbol="menu_label_2"/>
+        <entry field="true" id="71" symbol="menu_label_1"/>
+        <entry field="true" id="41" symbol="previousAltitude"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435831" name="dc" stackId="1" startPc="268435788"/>
-        <entry endPc="268436049" name="sensorInfo" stackId="1" startPc="268435836"/>
-        <entry endPc="268436049" name="currentAltitude" stackId="2" startPc="268435836"/>
-        <entry arg="true" endPc="268436757" name="dc" stackId="1" startPc="268436127"/>
-        <entry endPc="268436756" name="width" stackId="2" startPc="268436131"/>
-        <entry endPc="268436756" name="height" stackId="3" startPc="268436131"/>
-        <entry endPc="268436756" name="centerX" stackId="4" startPc="268436131"/>
-        <entry endPc="268436756" name="centerY" stackId="5" startPc="268436131"/>
-        <entry endPc="268436756" name="radius" stackId="6" startPc="268436131"/>
-        <entry endPc="268436756" name="maximumAltitude" stackId="7" startPc="268436131"/>
-        <entry endPc="268436756" name="displayedAltitude" stackId="8" startPc="268436131"/>
-        <entry endPc="268436756" name="sweep" stackId="9" startPc="268436131"/>
-        <entry endPc="268436756" name="ringColor" stackId="10" startPc="268436131"/>
-        <entry arg="true" endPc="268436937" name="item" stackId="1" startPc="268436865"/>
-        <entry arg="true" endPc="268437286" name="dc" stackId="1" startPc="268436959"/>
-        <entry endPc="268437286" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268436971"/>
-        <entry endPc="268437286" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268436971"/>
-        <entry endPc="268437286" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268436971"/>
+        <entry arg="true" endPc="268436048" name="dc" stackId="1" startPc="268435765"/>
+        <entry endPc="268436047" name="centerX" stackId="2" startPc="268435769"/>
+        <entry endPc="268436047" name="centerY" stackId="3" startPc="268435769"/>
+        <entry endPc="268436047" name="jumpCount" stackId="4" startPc="268435769"/>
+        <entry arg="true" endPc="268436248" name="info" stackId="1" startPc="268436049"/>
+        <entry endPc="268436247" name="position" stackId="2" startPc="268436053"/>
+        <entry endPc="268436247" name="coordinates" stackId="3" startPc="268436053"/>
+        <entry endPc="268436247" name="now" stackId="4" startPc="268436053"/>
+        <entry endPc="268436864" name="currentMslAltitude" stackId="1" startPc="268436253"/>
+        <entry endPc="268436864" name="now" stackId="2" startPc="268436253"/>
+        <entry endPc="268436379" name="sensorInfo" stackId="3" startPc="268436326"/>
+        <entry endPc="268436741" name="elapsedSeconds" stackId="4" startPc="268436658"/>
+        <entry endPc="268437225" name="climbSeconds" stackId="1" startPc="268437034"/>
+        <entry endPc="268437225" name="freefallSeconds" stackId="2" startPc="268437034"/>
+        <entry endPc="268437225" name="canopySeconds" stackId="3" startPc="268437034"/>
+        <entry endPc="268437225" name="storage" stackId="4" startPc="268437034"/>
+        <entry endPc="268437225" name="jumpNumber" stackId="5" startPc="268437034"/>
+        <entry arg="true" endPc="268437359" name="step" stackId="1" startPc="268437227"/>
+        <entry endPc="268437587" name="storage" stackId="1" startPc="268437385"/>
+        <entry endPc="268437587" name="nextJumpNumber" stackId="2" startPc="268437385"/>
+        <entry arg="true" endPc="268438003" name="dc" stackId="1" startPc="268437960"/>
+        <entry arg="true" endPc="268438845" name="now" stackId="1" startPc="268438167"/>
+        <entry endPc="268438844" name="descentSpeed" stackId="2" startPc="268438171"/>
+        <entry arg="true" endPc="268439541" name="dc" stackId="1" startPc="268438846"/>
+        <entry endPc="268439540" name="width" stackId="2" startPc="268438850"/>
+        <entry endPc="268439540" name="height" stackId="3" startPc="268438850"/>
+        <entry endPc="268439540" name="centerX" stackId="4" startPc="268438850"/>
+        <entry endPc="268439540" name="centerY" stackId="5" startPc="268438850"/>
+        <entry endPc="268439540" name="radius" stackId="6" startPc="268438850"/>
+        <entry endPc="268439540" name="maximumAltitude" stackId="7" startPc="268438850"/>
+        <entry endPc="268439540" name="displayedAltitude" stackId="8" startPc="268438850"/>
+        <entry endPc="268439540" name="sweep" stackId="9" startPc="268438850"/>
+        <entry endPc="268439540" name="ringColor" stackId="10" startPc="268438850"/>
+        <entry endPc="268439726" name="summaryView" stackId="1" startPc="268439653"/>
+        <entry arg="true" endPc="268439772" name="jumpNumber" stackId="1" startPc="268439727"/>
+        <entry endPc="268439772" name="storageKey" stackId="2" startPc="268439731"/>
+        <entry arg="true" endPc="268439923" name="climbSeconds" stackId="1" startPc="268439773"/>
+        <entry arg="true" endPc="268439923" name="freefallSeconds" stackId="2" startPc="268439773"/>
+        <entry arg="true" endPc="268439923" name="canopySeconds" stackId="3" startPc="268439773"/>
+        <entry arg="true" endPc="268439923" name="maximumSpeed" stackId="4" startPc="268439773"/>
+        <entry endPc="268439923" name="jumpNumber" stackId="5" startPc="268439777"/>
+        <entry endPc="268439923" name="jump" stackId="6" startPc="268439777"/>
+        <entry endPc="268439923" name="storageKey" stackId="7" startPc="268439777"/>
+        <entry endPc="268439967" name="storedCount" stackId="1" startPc="268439928"/>
+        <entry endPc="268440138" name="count" stackId="1" startPc="268440068"/>
+        <entry arg="true" endPc="268440678" name="dc" stackId="1" startPc="268440285"/>
+        <entry endPc="268440677" name="centerX" stackId="2" startPc="268440289"/>
+        <entry endPc="268440677" name="jumpCount" stackId="3" startPc="268440289"/>
+        <entry endPc="268440677" name="firstJump" stackId="4" startPc="268440289"/>
+        <entry endPc="268440677" name="y" stackId="5" startPc="268440289"/>
+        <entry endPc="268440677" name="row" stackId="6" startPc="268440488"/>
+        <entry endPc="268440664" name="jumpNumber" stackId="7" startPc="268440488"/>
+        <entry endPc="268440664" name="marker" stackId="8" startPc="268440488"/>
+        <entry arg="true" endPc="268440742" name="totalSeconds" stackId="1" startPc="268440679"/>
+        <entry endPc="268440742" name="minutes" stackId="2" startPc="268440683"/>
+        <entry endPc="268440742" name="seconds" stackId="3" startPc="268440683"/>
+        <entry arg="true" endPc="268440803" name="number" stackId="1" startPc="268440743"/>
+        <entry arg="true" endPc="268441304" name="dc" stackId="1" startPc="268440804"/>
+        <entry endPc="268441303" name="centerX" stackId="2" startPc="268440808"/>
+        <entry endPc="268441303" name="storedJump" stackId="3" startPc="268440808"/>
+        <entry endPc="268441303" name="jump" stackId="4" startPc="268440808"/>
+        <entry endPc="268441303" name="maximumSpeedKmh" stackId="5" startPc="268440808"/>
+        <entry arg="true" endPc="268441408" name="view" stackId="1" startPc="268441378"/>
+        <entry endPc="268441536" name="storage" stackId="1" startPc="268441413"/>
+        <entry endPc="268441536" name="listView" stackId="2" startPc="268441413"/>
+        <entry arg="true" endPc="268441609" name="item" stackId="1" startPc="268441537"/>
+        <entry arg="true" endPc="268441710" name="view" stackId="1" startPc="268441680"/>
+        <entry endPc="268441847" name="jumpNumber" stackId="1" startPc="268441738"/>
+        <entry endPc="268441847" name="detailView" stackId="2" startPc="268441738"/>
+        <entry arg="true" endPc="268442175" name="dc" stackId="1" startPc="268441848"/>
+        <entry endPc="268442175" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441860"/>
+        <entry endPc="268442175" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268441860"/>
+        <entry endPc="268442175" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268441860"/>
     </localVars>
     <deviceInfo deviceVersion="3d0fb192a2cf01699aefd0f384af3f527e5885bd" partNumber="006-B3111-00"/>
     <annotations>
@@ -200,67 +613,112 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/garmin_altimeterApp" offset="158" parentId="globals" symbolId="garmin_altimeterApp" type="class"/>
-        <dataEntry label="globals/garmin_altimeterView" offset="229" parentId="globals" symbolId="garmin_altimeterView" type="class"/>
-        <dataEntry label="globals/Rez" offset="364" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/garmin_altimeterDelegate" offset="427" parentId="globals" symbolId="garmin_altimeterDelegate" type="class"/>
-        <dataEntry label="globals/garmin_altimeterMenuDelegate" offset="482" parentId="globals" symbolId="garmin_altimeterMenuDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="537" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="584" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="623" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="662" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="725" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/JumpSummaryView" offset="214" parentId="globals" symbolId="JumpSummaryView" type="class"/>
+        <dataEntry label="globals/garmin_altimeterView" offset="277" parentId="globals" symbolId="garmin_altimeterView" type="class"/>
+        <dataEntry label="globals/Rez" offset="628" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/garmin_altimeterDelegate" offset="691" parentId="globals" symbolId="garmin_altimeterDelegate" type="class"/>
+        <dataEntry label="globals/JumpStorage" offset="754" parentId="globals" symbolId="JumpStorage" type="class"/>
+        <dataEntry label="globals/garmin_altimeterApp" offset="825" parentId="globals" symbolId="garmin_altimeterApp" type="class"/>
+        <dataEntry label="globals/JumpListView" offset="896" parentId="globals" symbolId="JumpListView" type="class"/>
+        <dataEntry label="globals/JumpDetailView" offset="991" parentId="globals" symbolId="JumpDetailView" type="class"/>
+        <dataEntry label="globals/JumpDetailDelegate" offset="1070" parentId="globals" symbolId="JumpDetailDelegate" type="class"/>
+        <dataEntry label="globals/JumpSummaryDelegate" offset="1125" parentId="globals" symbolId="JumpSummaryDelegate" type="class"/>
+        <dataEntry label="globals/garmin_altimeterMenuDelegate" offset="1196" parentId="globals" symbolId="garmin_altimeterMenuDelegate" type="class"/>
+        <dataEntry label="globals/JumpListDelegate" offset="1251" parentId="globals" symbolId="JumpListDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1338" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1385" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1424" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1463" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1526" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="garmin_altimeterApp" startPc="268435460">
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="JumpSummaryView" startPc="268435460">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435523" name="&lt;init&gt;" parent="garmin_altimeterView" startPc="268435505">
+        <functionEntry accessMode="public" endPc="268435537" name="&lt;init&gt;" parent="garmin_altimeterView" startPc="268435505">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="Rez" startPc="268435524">
+        <functionEntry accessMode="public" endPc="268435561" name="&lt;init&gt;" parent="Rez" startPc="268435538">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435566" name="&lt;init&gt;" parent="garmin_altimeterDelegate" startPc="268435548">
+        <functionEntry accessMode="public" endPc="268435580" name="&lt;init&gt;" parent="garmin_altimeterDelegate" startPc="268435562">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435585" name="&lt;init&gt;" parent="garmin_altimeterMenuDelegate" startPc="268435567">
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JumpStorage">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435588" name="onStart" parent="garmin_altimeterApp" startPc="268435586">
-            <param id="state"/>
+        <functionEntry accessMode="public" endPc="268435599" name="&lt;init&gt;" parent="garmin_altimeterApp" startPc="268435581">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435657" name="getInitialView" parent="garmin_altimeterApp" startPc="268435589">
+        <functionEntry accessMode="public" endPc="268435618" name="&lt;init&gt;" parent="JumpListView" startPc="268435600">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435678" name="initialize" parent="garmin_altimeterApp" startPc="268435658">
+        <functionEntry accessMode="public" endPc="268435637" name="&lt;init&gt;" parent="JumpDetailView" startPc="268435619">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435681" name="onStop" parent="garmin_altimeterApp" startPc="268435679">
-            <param id="state"/>
+        <functionEntry accessMode="public" endPc="268435656" name="&lt;init&gt;" parent="JumpDetailDelegate" startPc="268435638">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435787" name="onShow" parent="garmin_altimeterView" startPc="268435682">
+        <functionEntry accessMode="public" endPc="268435675" name="&lt;init&gt;" parent="JumpSummaryDelegate" startPc="268435657">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435831" name="onLayout" parent="garmin_altimeterView" startPc="268435788">
+        <functionEntry accessMode="public" endPc="268435694" name="&lt;init&gt;" parent="garmin_altimeterMenuDelegate" startPc="268435676">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435713" name="&lt;init&gt;" parent="JumpListDelegate" startPc="268435695">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435764" name="initialize" parent="JumpSummaryView" startPc="268435714">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436048" name="onUpdate" parent="JumpSummaryView" startPc="268435765">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436050" name="updateAltitude" parent="garmin_altimeterView" startPc="268435832">
+        <functionEntry accessMode="public" endPc="268436248" name="onPosition" parent="garmin_altimeterView" startPc="268436049">
+            <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436105" name="initialize" parent="garmin_altimeterView" startPc="268436051">
+        <functionEntry accessMode="public" endPc="268436865" name="updateAltitude" parent="garmin_altimeterView" startPc="268436249">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436126" name="onHide" parent="garmin_altimeterView" startPc="268436106">
+        <functionEntry accessMode="public" endPc="268437029" name="getPhaseLabel" parent="garmin_altimeterView" startPc="268436866">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436757" name="onUpdate" parent="garmin_altimeterView" startPc="268436127">
+        <functionEntry accessMode="public" endPc="268437226" name="saveCompletedJump" parent="garmin_altimeterView" startPc="268437030">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437359" name="getSyntheticAltitude" parent="garmin_altimeterView" startPc="268437227">
+            <param id="step"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437380" name="onHide" parent="garmin_altimeterView" startPc="268437360">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437588" name="startFitRecording" parent="garmin_altimeterView" startPc="268437381">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437959" name="onShow" parent="garmin_altimeterView" startPc="268437589">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438003" name="onLayout" parent="garmin_altimeterView" startPc="268437960">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438111" name="stopAndSaveFitRecording" parent="garmin_altimeterView" startPc="268438004">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438166" name="initialize" parent="garmin_altimeterView" startPc="268438112">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438845" name="updateJumpPhase" parent="garmin_altimeterView" startPc="268438167">
+            <param id="now"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439541" name="onUpdate" parent="garmin_altimeterView" startPc="268438846">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -276,27 +734,121 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436843" name="onMenu" parent="garmin_altimeterDelegate" startPc="268436758">
+        <functionEntry accessMode="public" endPc="268439627" name="onMenu" parent="garmin_altimeterDelegate" startPc="268439542">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436864" name="initialize" parent="garmin_altimeterDelegate" startPc="268436844">
+        <functionEntry accessMode="public" endPc="268439648" name="initialize" parent="garmin_altimeterDelegate" startPc="268439628">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436937" name="onMenuItem" parent="garmin_altimeterMenuDelegate" startPc="268436865">
-            <param id="item"/>
+        <functionEntry accessMode="public" endPc="268439726" name="onNextPage" parent="garmin_altimeterDelegate" startPc="268439649">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436958" name="initialize" parent="garmin_altimeterMenuDelegate" startPc="268436938">
+        <functionEntry accessMode="public" endPc="268439772" name="getJump" parent="JumpStorage" startPc="268439727">
+            <param id="jumpNumber"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437286" name="MainLayout" parent="Layouts" startPc="268436959">
+        <functionEntry accessMode="public" endPc="268439923" name="saveJump" parent="JumpStorage" startPc="268439773">
+            <param id="climbSeconds"/>
+            <param id="freefallSeconds"/>
+            <param id="canopySeconds"/>
+            <param id="maximumSpeed"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="JumpStorage">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439967" name="getJumpCount" parent="JumpStorage" startPc="268439924">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439970" name="onStart" parent="garmin_altimeterApp" startPc="268439968">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440039" name="getInitialView" parent="garmin_altimeterApp" startPc="268439971">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440060" name="initialize" parent="garmin_altimeterApp" startPc="268440040">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440063" name="onStop" parent="garmin_altimeterApp" startPc="268440061">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440139" name="selectNewer" parent="JumpListView" startPc="268440064">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440150" name="getSelectedJumpNumber" parent="JumpListView" startPc="268440140">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440208" name="selectOlder" parent="JumpListView" startPc="268440151">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440284" name="initialize" parent="JumpListView" startPc="268440209">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440678" name="onUpdate" parent="JumpListView" startPc="268440285">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437305" name="&lt;init&gt;" parent="MainMenu" startPc="268437287">
+        <functionEntry accessMode="public" endPc="268440742" name="formatDuration" parent="JumpDetailView" startPc="268440679">
+            <param id="totalSeconds"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437438" name="initialize" parent="MainMenu" startPc="268437306">
+        <functionEntry accessMode="public" endPc="268440803" name="initialize" parent="JumpDetailView" startPc="268440743">
+            <param id="number"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441304" name="onUpdate" parent="JumpDetailView" startPc="268440804">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441330" name="onBack" parent="JumpDetailDelegate" startPc="268441305">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441351" name="initialize" parent="JumpDetailDelegate" startPc="268441331">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441377" name="onBack" parent="JumpSummaryDelegate" startPc="268441352">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441408" name="initialize" parent="JumpSummaryDelegate" startPc="268441378">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441536" name="onSelect" parent="JumpSummaryDelegate" startPc="268441409">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441609" name="onMenuItem" parent="garmin_altimeterMenuDelegate" startPc="268441537">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441630" name="initialize" parent="garmin_altimeterMenuDelegate" startPc="268441610">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441656" name="onBack" parent="JumpListDelegate" startPc="268441631">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441679" name="onPreviousPage" parent="JumpListDelegate" startPc="268441657">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441710" name="initialize" parent="JumpListDelegate" startPc="268441680">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441733" name="onNextPage" parent="JumpListDelegate" startPc="268441711">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441847" name="onSelect" parent="JumpListDelegate" startPc="268441734">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442175" name="MainLayout" parent="Layouts" startPc="268441848">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442194" name="&lt;init&gt;" parent="MainMenu" startPc="268442176">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442327" name="initialize" parent="MainMenu" startPc="268442195">
             <documentation/>
         </functionEntry>
     </functions>

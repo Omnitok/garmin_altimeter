@@ -1,0 +1,168 @@
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Application,1,13,24]; @symbol_usingdef<2> = [Storage,1,25,32]; ]
+using Toybox.Application.Storage;
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc"; @line = 3; @symbol_classdef = [JumpStorage,3,6,17]; ]
+class JumpStorage {
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    function initialize() as Void {
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc"; @line = 8; @symbol_functiondef = [getJumpCount,8,13,25]; ]
+    function getJumpCount() {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_8_28_16_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 9 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_8_28_16_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_8_28_16_4_stop" ]
+        %storedCount.1 = local;
+        symbol [ storedCount %storedCount.1 9 12 23 ];
+        symbol [ Storage %tmp.1 9 26 33 ];
+        %tmp.1 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.2 9 34 42 ];
+        %tmp.2 = getv function %tmp.1 :getValue;
+        %tmp.3 = "jumpCount";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %storedCount.1 %tmp.4;
+        symbol [ storedCount %storedCount.1 9 12 23 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 11 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_11_8_13_8_if_stmt:
+        %tmp.5 = lgetv %storedCount.1;
+        symbol [ storedCount %tmp.5 11 12 23 ];
+        %tmp.6 = null;
+        %tmp.7 = eq %tmp.5 %tmp.6;
+        bf %tmp.7 @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_11_8_13_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_11_8_13_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_11_33_13_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 12 12 ]
+        %tmp.8 = 0;
+        ret %tmp.8;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_11_33_13_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_11_8_13_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_11_8_13_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 15 8 ]
+        %tmp.9 = lgetv %storedCount.1;
+        symbol [ storedCount %tmp.9 15 15 26 ];
+        ret %tmp.9;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_8_28_16_4_stop:
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc"; @line = 18; @symbol_functiondef = [saveJump,18,13,21]; @symbol_param<0> = [climbSeconds,19,8,20]; @symbol_param<1> = [freefallSeconds,20,8,23]; @symbol_param<2> = [canopySeconds,21,8,21]; @symbol_param<3> = [maximumSpeed,22,8,20]; ]
+    function saveJump(climbSeconds, freefallSeconds, canopySeconds, maximumSpeed) {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_23_6_41_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 24 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_23_6_41_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_23_6_41_4_stop" ]
+        %jumpNumber.1 = local;
+        symbol [ jumpNumber %jumpNumber.1 24 12 22 ];
+        %tmp.1 = self;
+        symbol [ getJumpCount %tmp.2 24 25 37 ];
+        %tmp.2 = getv function %tmp.1 :getJumpCount;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = 1;
+        %tmp.5 = add %tmp.3 %tmp.4;
+        lputv %jumpNumber.1 %tmp.5;
+        symbol [ jumpNumber %jumpNumber.1 24 12 22 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 26 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_23_6_41_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_23_6_41_4_stop" ]
+        %jump.2 = local;
+        symbol [ jump %jump.2 26 12 16 ];
+        %tmp.6 = newd 5;
+        %tmp.7 = "number";
+        %tmp.8 = lgetv %jumpNumber.1;
+        symbol [ jumpNumber %tmp.8 27 24 34 ];
+        %tmp.9 = dup %tmp.6;
+        %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+        %tmp.11 = "climbSeconds";
+        %tmp.12 = lgetv %climbSeconds;
+        symbol [ climbSeconds %tmp.12 28 30 42 ];
+        %tmp.13 = dup %tmp.10;
+        %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+        %tmp.15 = "freefallSeconds";
+        %tmp.16 = lgetv %freefallSeconds;
+        symbol [ freefallSeconds %tmp.16 29 33 48 ];
+        %tmp.17 = dup %tmp.14;
+        %tmp.18 = aputv %tmp.17 %tmp.15 %tmp.16;
+        %tmp.19 = "canopySeconds";
+        %tmp.20 = lgetv %canopySeconds;
+        symbol [ canopySeconds %tmp.20 30 31 44 ];
+        %tmp.21 = dup %tmp.18;
+        %tmp.22 = aputv %tmp.21 %tmp.19 %tmp.20;
+        %tmp.23 = "maximumSpeed";
+        %tmp.24 = lgetv %maximumSpeed;
+        symbol [ maximumSpeed %tmp.24 31 30 42 ];
+        %tmp.25 = dup %tmp.22;
+        %tmp.26 = aputv %tmp.25 %tmp.23 %tmp.24;
+        lputv %jump.2 %tmp.26;
+        symbol [ jump %jump.2 26 12 16 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 34 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_23_6_41_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_23_6_41_4_stop" ]
+        %storageKey.3 = local;
+        symbol [ storageKey %storageKey.3 34 12 22 ];
+        %tmp.27 = "jump_";
+        %tmp.28 = lgetv %jumpNumber.1;
+        symbol [ jumpNumber %tmp.28 35 22 32 ];
+        symbol [ format %tmp.29 35 33 39 ];
+        %tmp.29 = getv function %tmp.28 :format;
+        %tmp.30 = "%d";
+        %tmp.31 = invoke %tmp.28 %tmp.29(%tmp.30);
+        %tmp.32 = add %tmp.27 %tmp.31;
+        lputv %storageKey.3 %tmp.32;
+        symbol [ storageKey %storageKey.3 34 12 22 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 37 8 ]
+        symbol [ Storage %tmp.33 37 8 15 ];
+        %tmp.33 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.34 37 16 24 ];
+        %tmp.34 = getv function %tmp.33 :setValue;
+        %tmp.35 = lgetv %storageKey.3;
+        symbol [ storageKey %tmp.35 37 25 35 ];
+        %tmp.36 = lgetv %jump.2;
+        symbol [ jump %tmp.36 37 37 41 ];
+        invoke %tmp.33 %tmp.34(%tmp.35, %tmp.36);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 38 8 ]
+        symbol [ Storage %tmp.37 38 8 15 ];
+        %tmp.37 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.38 38 16 24 ];
+        %tmp.38 = getv function %tmp.37 :setValue;
+        %tmp.39 = "jumpCount";
+        %tmp.40 = lgetv %jumpNumber.1;
+        symbol [ jumpNumber %tmp.40 38 38 48 ];
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 40 8 ]
+        %tmp.41 = lgetv %jumpNumber.1;
+        symbol [ jumpNumber %tmp.41 40 15 25 ];
+        ret %tmp.41;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_23_6_41_4_stop:
+    }
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc"; @line = 43; @symbol_functiondef = [getJump,43,13,20]; @symbol_param<0> = [jumpNumber,43,21,31]; ]
+    function getJump(jumpNumber) {
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_43_33_48_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 44 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_43_33_48_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_43_33_48_4_stop" ]
+        %storageKey.1 = local;
+        symbol [ storageKey %storageKey.1 44 12 22 ];
+        %tmp.1 = "jump_";
+        %tmp.2 = lgetv %jumpNumber;
+        symbol [ jumpNumber %tmp.2 45 22 32 ];
+        symbol [ format %tmp.3 45 33 39 ];
+        %tmp.3 = getv function %tmp.2 :format;
+        %tmp.4 = "%d";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = add %tmp.1 %tmp.5;
+        lputv %storageKey.1 %tmp.6;
+        symbol [ storageKey %storageKey.1 44 12 22 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc" 47 8 ]
+        symbol [ Storage %tmp.7 47 15 22 ];
+        %tmp.7 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.8 47 23 31 ];
+        %tmp.8 = getv function %tmp.7 :getValue;
+        %tmp.9 = lgetv %storageKey.1;
+        symbol [ storageKey %tmp.9 47 32 42 ];
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        ret %tmp.10;
+_home_janee_garmin_altimeter_garmin_altimeter_source_JumpStorage_mc_43_33_48_4_stop:
+    }
+}
+[ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/JumpStorage.mc"; @line = 1; ]
+<init> {
+}
