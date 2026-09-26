@@ -67,7 +67,7 @@ class garmin_altimeterView extends WatchUi.View {
     [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 38; @position = 8; @symbol_vardef = [landingCandidateTime,38,8,28]; ]
     var landingCandidateTime = 0;
     [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 41; @position = 8; @symbol_vardef = [useSyntheticTest,41,8,24]; ]
-    var useSyntheticTest = true;
+    var useSyntheticTest = false;
     [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 42; @position = 8; @symbol_vardef = [syntheticStep,42,8,21]; ]
     var syntheticStep = 0;
     [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 44; @position = 8; @symbol_vardef = [hasStarted,44,8,18]; ]
@@ -996,7 +996,7 @@ _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_246
         %tmp.31 = const :updateAltitude;
         symbol [ updateAltitude %tmp.31 277 20 34 const ];
         %tmp.32 = invoke %tmp.28 %tmp.29(%tmp.31);
-        %tmp.33 = 100;
+        %tmp.33 = 1000;
         %tmp.34 = true;
         invoke %tmp.26 %tmp.27(%tmp.32, %tmp.33, %tmp.34);
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 282 8 ]

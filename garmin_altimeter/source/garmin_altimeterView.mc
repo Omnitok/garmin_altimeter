@@ -38,7 +38,7 @@ class garmin_altimeterView extends WatchUi.View {
     var landingCandidateTime = 0;
 
     // testing
-    var useSyntheticTest = true;
+    var useSyntheticTest = false;
     var syntheticStep = 0;
 
     var hasStarted = false;
@@ -275,7 +275,7 @@ class garmin_altimeterView extends WatchUi.View {
 
         updateTimer.start(
             method(:updateAltitude),
-            100,
+            1000,
             true
         );
 
