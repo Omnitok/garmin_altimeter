@@ -151,7 +151,7 @@ _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_71_
         symbol [ step %tmp.9 72 29 33 ];
         %tmp.10 = 5;
         %tmp.11 = sub %tmp.9 %tmp.10;
-        %tmp.12 = 100.0;
+        %tmp.12 = 110.0;
         %tmp.13 = mul %tmp.11 %tmp.12;
         %tmp.14 = add %tmp.8 %tmp.13;
         ret %tmp.14;
@@ -1034,9 +1034,9 @@ _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_245
     }
     [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 294; @symbol_functiondef = [onUpdate,294,13,21]; @symbol_param<0> = [dc,294,22,24]; ]
     function onUpdate(dc) {
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start:
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 296 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop" ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
         %width.1 = local;
         symbol [ width %width.1 296 12 17 ];
         %tmp.1 = lgetv %dc;
@@ -1047,7 +1047,7 @@ _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294
         lputv %width.1 %tmp.3;
         symbol [ width %width.1 296 12 17 ];
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 297 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop" ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
         %height.2 = local;
         symbol [ height %height.2 297 12 18 ];
         %tmp.4 = lgetv %dc;
@@ -1058,7 +1058,7 @@ _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294
         lputv %height.2 %tmp.6;
         symbol [ height %height.2 297 12 18 ];
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 299 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop" ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
         %centerX.3 = local;
         symbol [ centerX %centerX.3 299 12 19 ];
         %tmp.7 = lgetv %width.1;
@@ -1068,7 +1068,7 @@ _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294
         lputv %centerX.3 %tmp.9;
         symbol [ centerX %centerX.3 299 12 19 ];
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 300 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop" ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
         %centerY.4 = local;
         symbol [ centerY %centerY.4 300 12 19 ];
         %tmp.10 = lgetv %height.2;
@@ -1133,800 +1133,914 @@ _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_302
         %tmp.35 = getm $.Toybox.Graphics;
         symbol [ FONT_MEDIUM %tmp.36 310 25 36 ];
         %tmp.36 = getv %tmp.35 :FONT_MEDIUM;
-        %tmp.38 = const :calibrating;
-        symbol [ calibrating %tmp.38 311 17 28 const ];
-        symbol [ Graphics %tmp.39 312 16 24 ];
-        %tmp.39 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.40 312 25 44 ];
-        %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.29 %tmp.30(%tmp.31, %tmp.34, %tmp.36, %tmp.38, %tmp.40);
+        %tmp.37 = "CALIBRATING";
+        symbol [ Graphics %tmp.38 312 16 24 ];
+        %tmp.38 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.39 312 25 44 ];
+        %tmp.39 = getv %tmp.38 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.29 %tmp.30(%tmp.31, %tmp.34, %tmp.36, %tmp.37, %tmp.39);
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 315 12 ]
-        %tmp.41 = lgetv %dc;
-        symbol [ dc %tmp.41 315 12 14 ];
-        symbol [ setColor %tmp.42 315 15 23 ];
-        %tmp.42 = getv function %tmp.41 :setColor;
-        symbol [ Graphics %tmp.43 315 24 32 ];
-        %tmp.43 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.44 315 33 45 ];
-        %tmp.44 = getv %tmp.43 :COLOR_YELLOW;
-        symbol [ Graphics %tmp.45 315 47 55 ];
-        %tmp.45 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.46 315 56 73 ];
-        %tmp.46 = getv %tmp.45 :COLOR_TRANSPARENT;
-        invoke %tmp.41 %tmp.42(%tmp.44, %tmp.46);
+        %tmp.40 = lgetv %dc;
+        symbol [ dc %tmp.40 315 12 14 ];
+        symbol [ setColor %tmp.41 315 15 23 ];
+        %tmp.41 = getv function %tmp.40 :setColor;
+        symbol [ Graphics %tmp.42 315 24 32 ];
+        %tmp.42 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.43 315 33 45 ];
+        %tmp.43 = getv %tmp.42 :COLOR_YELLOW;
+        symbol [ Graphics %tmp.44 315 47 55 ];
+        %tmp.44 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.45 315 56 73 ];
+        %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+        invoke %tmp.40 %tmp.41(%tmp.43, %tmp.45);
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 316 12 ]
-        %tmp.47 = lgetv %dc;
-        symbol [ dc %tmp.47 316 12 14 ];
-        symbol [ drawText %tmp.48 316 15 23 ];
-        %tmp.48 = getv function %tmp.47 :drawText;
-        %tmp.49 = lgetv %centerX.3;
-        symbol [ centerX %tmp.49 317 16 23 ];
-        %tmp.50 = lgetv %centerY.4;
-        symbol [ centerY %tmp.50 318 16 23 ];
-        %tmp.51 = 10;
-        %tmp.52 = add %tmp.50 %tmp.51;
-        symbol [ Graphics %tmp.53 319 16 24 ];
-        %tmp.53 = getm $.Toybox.Graphics;
-        symbol [ FONT_SMALL %tmp.54 319 25 35 ];
-        %tmp.54 = getv %tmp.53 :FONT_SMALL;
-        symbol [ calibrationSamples %tmp.56 320 16 34 ];
-        %tmp.56 = getv ? :calibrationSamples;
-        symbol [ format %tmp.57 320 35 41 ];
-        %tmp.57 = getv function %tmp.56 :format;
-        %tmp.58 = "%d";
-        %tmp.59 = invoke %tmp.56 %tmp.57(%tmp.58);
-        %tmp.60 = " / 5";
-        %tmp.61 = add %tmp.59 %tmp.60;
-        symbol [ Graphics %tmp.62 321 16 24 ];
-        %tmp.62 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.63 321 25 44 ];
-        %tmp.63 = getv %tmp.62 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.47 %tmp.48(%tmp.49, %tmp.52, %tmp.54, %tmp.61, %tmp.63);
+        %tmp.46 = lgetv %dc;
+        symbol [ dc %tmp.46 316 12 14 ];
+        symbol [ drawText %tmp.47 316 15 23 ];
+        %tmp.47 = getv function %tmp.46 :drawText;
+        %tmp.48 = lgetv %centerX.3;
+        symbol [ centerX %tmp.48 317 16 23 ];
+        %tmp.49 = lgetv %centerY.4;
+        symbol [ centerY %tmp.49 318 16 23 ];
+        %tmp.50 = 10;
+        %tmp.51 = add %tmp.49 %tmp.50;
+        symbol [ Graphics %tmp.52 319 16 24 ];
+        %tmp.52 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.53 319 25 35 ];
+        %tmp.53 = getv %tmp.52 :FONT_SMALL;
+        symbol [ calibrationSamples %tmp.55 320 16 34 ];
+        %tmp.55 = getv ? :calibrationSamples;
+        symbol [ format %tmp.56 320 35 41 ];
+        %tmp.56 = getv function %tmp.55 :format;
+        %tmp.57 = "%d";
+        %tmp.58 = invoke %tmp.55 %tmp.56(%tmp.57);
+        %tmp.59 = " / 5";
+        %tmp.60 = add %tmp.58 %tmp.59;
+        symbol [ Graphics %tmp.61 321 16 24 ];
+        %tmp.61 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.62 321 25 44 ];
+        %tmp.62 = getv %tmp.61 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.46 %tmp.47(%tmp.48, %tmp.51, %tmp.53, %tmp.60, %tmp.62);
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 324 12 ]
         ret ?;
 _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_302_27_325_8_stop:
         goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_302_8_325_8_if_end;
 _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_302_8_325_8_if_end:
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 328 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop" ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
         %radius.5 = local;
         symbol [ radius %radius.5 328 12 18 ];
-        %tmp.64 = lgetv %width.1;
-        symbol [ width %tmp.64 328 21 26 ];
-        %tmp.65 = 2;
-        %tmp.66 = div %tmp.64 %tmp.65;
-        %tmp.67 = 15;
-        %tmp.68 = sub %tmp.66 %tmp.67;
-        lputv %radius.5 %tmp.68;
+        %tmp.63 = lgetv %width.1;
+        symbol [ width %tmp.63 328 21 26 ];
+        %tmp.64 = 2;
+        %tmp.65 = div %tmp.63 %tmp.64;
+        %tmp.66 = 15;
+        %tmp.67 = sub %tmp.65 %tmp.66;
+        lputv %radius.5 %tmp.67;
         symbol [ radius %radius.5 328 12 18 ];
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 329 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop" ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
         %maximumAltitude.6 = local;
         symbol [ maximumAltitude %maximumAltitude.6 329 12 27 ];
-        %tmp.69 = 4000;
-        lputv %maximumAltitude.6 %tmp.69;
+        %tmp.68 = 4000;
+        lputv %maximumAltitude.6 %tmp.68;
         symbol [ maximumAltitude %maximumAltitude.6 329 12 27 ];
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 330 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop" ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
         %displayedAltitude.7 = local;
         symbol [ displayedAltitude %displayedAltitude.7 330 12 29 ];
-        symbol [ altitude %tmp.71 330 32 40 ];
-        %tmp.71 = getv ? :altitude;
-        lputv %displayedAltitude.7 %tmp.71;
+        symbol [ altitude %tmp.70 330 32 40 ];
+        %tmp.70 = getv ? :altitude;
+        lputv %displayedAltitude.7 %tmp.70;
         symbol [ displayedAltitude %displayedAltitude.7 330 12 29 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 332 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_332_8_334_8_if_stmt:
-        %tmp.72 = lgetv %displayedAltitude.7;
-        symbol [ displayedAltitude %tmp.72 332 12 29 ];
-        %tmp.73 = 0;
-        %tmp.74 = lt %tmp.72 %tmp.73;
-        bf %tmp.74 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_332_8_334_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_332_8_334_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_332_35_334_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 333 12 ]
-        %tmp.75 = 0;
-        lputv %displayedAltitude.7 %tmp.75;
-        symbol [ displayedAltitude %displayedAltitude.7 333 12 29 ];
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_332_35_334_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_332_8_334_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_332_8_334_8_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 336 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_336_8_338_8_if_stmt:
-        %tmp.76 = lgetv %displayedAltitude.7;
-        symbol [ displayedAltitude %tmp.76 336 12 29 ];
-        %tmp.77 = lgetv %maximumAltitude.6;
-        symbol [ maximumAltitude %tmp.77 336 32 47 ];
-        %tmp.78 = gt %tmp.76 %tmp.77;
-        bf %tmp.78 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_336_8_338_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_336_8_338_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_336_49_338_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 337 12 ]
-        %tmp.79 = lgetv %maximumAltitude.6;
-        symbol [ maximumAltitude %tmp.79 337 32 47 ];
-        lputv %displayedAltitude.7 %tmp.79;
-        symbol [ displayedAltitude %displayedAltitude.7 337 12 29 ];
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_336_49_338_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_336_8_338_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_336_8_338_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 333 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_333_8_335_8_if_stmt:
+        %tmp.71 = lgetv %displayedAltitude.7;
+        symbol [ displayedAltitude %tmp.71 333 12 29 ];
+        %tmp.72 = 0;
+        %tmp.73 = lt %tmp.71 %tmp.72;
+        bf %tmp.73 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_333_8_335_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_333_8_335_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_333_35_335_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 334 12 ]
+        %tmp.74 = 0;
+        lputv %displayedAltitude.7 %tmp.74;
+        symbol [ displayedAltitude %displayedAltitude.7 334 12 29 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_333_35_335_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_333_8_335_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_333_8_335_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 338 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
+        %baseAltitude.8 = local;
+        symbol [ baseAltitude %baseAltitude.8 338 12 24 ];
+        %tmp.75 = lgetv %displayedAltitude.7;
+        symbol [ displayedAltitude %tmp.75 338 27 44 ];
+        lputv %baseAltitude.8 %tmp.75;
+        symbol [ baseAltitude %baseAltitude.8 338 12 24 ];
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 340 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop" ]
-        %sweep.8 = local;
-        symbol [ sweep %sweep.8 340 12 17 ];
-        %tmp.80 = lgetv %displayedAltitude.7;
-        symbol [ displayedAltitude %tmp.80 340 20 37 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_340_8_342_8_if_stmt:
+        %tmp.76 = lgetv %baseAltitude.8;
+        symbol [ baseAltitude %tmp.76 340 12 24 ];
+        %tmp.77 = lgetv %maximumAltitude.6;
+        symbol [ maximumAltitude %tmp.77 340 27 42 ];
+        %tmp.78 = gt %tmp.76 %tmp.77;
+        bf %tmp.78 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_340_8_342_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_340_8_342_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_340_44_342_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 341 12 ]
+        %tmp.79 = lgetv %maximumAltitude.6;
+        symbol [ maximumAltitude %tmp.79 341 27 42 ];
+        lputv %baseAltitude.8 %tmp.79;
+        symbol [ baseAltitude %baseAltitude.8 341 12 24 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_340_44_342_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_340_8_342_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_340_8_342_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 344 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
+        %baseSweep.9 = local;
+        symbol [ baseSweep %baseSweep.9 344 12 21 ];
+        %tmp.80 = lgetv %baseAltitude.8;
+        symbol [ baseAltitude %tmp.80 345 12 24 ];
         %tmp.81 = 360;
         %tmp.82 = mul %tmp.80 %tmp.81;
         %tmp.83 = lgetv %maximumAltitude.6;
-        symbol [ maximumAltitude %tmp.83 340 46 61 ];
+        symbol [ maximumAltitude %tmp.83 345 33 48 ];
         %tmp.84 = div %tmp.82 %tmp.83;
-        lputv %sweep.8 %tmp.84;
-        symbol [ sweep %sweep.8 340 12 17 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 341 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop" ]
-        %ringColor.9 = local;
-        symbol [ ringColor %ringColor.9 341 12 21 ];
-        symbol [ Graphics %tmp.85 341 24 32 ];
-        %tmp.85 = getm $.Toybox.Graphics;
-        symbol [ COLOR_GREEN %tmp.86 341 33 44 ];
-        %tmp.86 = getv %tmp.85 :COLOR_GREEN;
-        lputv %ringColor.9 %tmp.86;
-        symbol [ ringColor %ringColor.9 341 12 21 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 344 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_344_8_346_8_if_stmt:
-        %tmp.87 = lgetv %displayedAltitude.7;
-        symbol [ displayedAltitude %tmp.87 344 12 29 ];
-        %tmp.88 = 1200;
-        %tmp.89 = lte %tmp.87 %tmp.88;
-        bf %tmp.89 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_344_8_346_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_344_8_346_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_344_39_346_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 345 12 ]
-        symbol [ Graphics %tmp.90 345 24 32 ];
-        %tmp.90 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.91 345 33 45 ];
-        %tmp.91 = getv %tmp.90 :COLOR_YELLOW;
-        lputv %ringColor.9 %tmp.91;
-        symbol [ ringColor %ringColor.9 345 12 21 ];
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_344_39_346_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_344_8_346_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_344_8_346_8_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 349 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_349_8_351_8_if_stmt:
-        %tmp.92 = lgetv %displayedAltitude.7;
-        symbol [ displayedAltitude %tmp.92 349 12 29 ];
-        %tmp.93 = 750;
-        %tmp.94 = lt %tmp.92 %tmp.93;
-        bf %tmp.94 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_349_8_351_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_349_8_351_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_349_37_351_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 350 12 ]
-        symbol [ Graphics %tmp.95 350 24 32 ];
-        %tmp.95 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.96 350 33 42 ];
-        %tmp.96 = getv %tmp.95 :COLOR_RED;
-        lputv %ringColor.9 %tmp.96;
-        symbol [ ringColor %ringColor.9 350 12 21 ];
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_349_37_351_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_349_8_351_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_349_8_351_8_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 354 8 ]
-        %tmp.97 = lgetv %dc;
-        symbol [ dc %tmp.97 354 8 10 ];
-        symbol [ setColor %tmp.98 354 11 19 ];
-        %tmp.98 = getv function %tmp.97 :setColor;
-        symbol [ Graphics %tmp.99 354 20 28 ];
-        %tmp.99 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.100 354 29 40 ];
-        %tmp.100 = getv %tmp.99 :COLOR_BLACK;
-        symbol [ Graphics %tmp.101 354 42 50 ];
-        %tmp.101 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.102 354 51 62 ];
-        %tmp.102 = getv %tmp.101 :COLOR_BLACK;
-        invoke %tmp.97 %tmp.98(%tmp.100, %tmp.102);
+        lputv %baseSweep.9 %tmp.84;
+        symbol [ baseSweep %baseSweep.9 344 12 21 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 348 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
+        %extraAltitude.10 = local;
+        symbol [ extraAltitude %extraAltitude.10 348 12 25 ];
+        %tmp.85 = lgetv %displayedAltitude.7;
+        symbol [ displayedAltitude %tmp.85 349 12 29 ];
+        %tmp.86 = lgetv %maximumAltitude.6;
+        symbol [ maximumAltitude %tmp.86 349 32 47 ];
+        %tmp.87 = sub %tmp.85 %tmp.86;
+        lputv %extraAltitude.10 %tmp.87;
+        symbol [ extraAltitude %extraAltitude.10 348 12 25 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 351 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_351_8_353_8_if_stmt:
+        %tmp.88 = lgetv %extraAltitude.10;
+        symbol [ extraAltitude %tmp.88 351 12 25 ];
+        %tmp.89 = 0;
+        %tmp.90 = lt %tmp.88 %tmp.89;
+        bf %tmp.90 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_351_8_353_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_351_8_353_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_351_31_353_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 352 12 ]
+        %tmp.91 = 0;
+        lputv %extraAltitude.10 %tmp.91;
+        symbol [ extraAltitude %extraAltitude.10 352 12 25 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_351_31_353_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_351_8_353_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_351_8_353_8_if_end:
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 355 8 ]
-        %tmp.103 = lgetv %dc;
-        symbol [ dc %tmp.103 355 8 10 ];
-        symbol [ clear %tmp.104 355 11 16 ];
-        %tmp.104 = getv function %tmp.103 :clear;
-        invoke %tmp.103 %tmp.104();
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 358 8 ]
-        %tmp.105 = lgetv %dc;
-        symbol [ dc %tmp.105 358 8 10 ];
-        symbol [ setPenWidth %tmp.106 358 11 22 ];
-        %tmp.106 = getv function %tmp.105 :setPenWidth;
-        %tmp.107 = 50;
-        invoke %tmp.105 %tmp.106(%tmp.107);
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 361 8 ]
-        %tmp.108 = lgetv %dc;
-        symbol [ dc %tmp.108 361 8 10 ];
-        symbol [ setColor %tmp.109 361 11 19 ];
-        %tmp.109 = getv function %tmp.108 :setColor;
-        symbol [ Graphics %tmp.110 361 20 28 ];
-        %tmp.110 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.111 361 29 40 ];
-        %tmp.111 = getv %tmp.110 :COLOR_BLACK;
-        symbol [ Graphics %tmp.112 361 42 50 ];
-        %tmp.112 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.113 361 51 62 ];
-        %tmp.113 = getv %tmp.112 :COLOR_BLACK;
-        invoke %tmp.108 %tmp.109(%tmp.111, %tmp.113);
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 362 8 ]
-        %tmp.114 = lgetv %dc;
-        symbol [ dc %tmp.114 362 8 10 ];
-        symbol [ drawCircle %tmp.115 362 11 21 ];
-        %tmp.115 = getv function %tmp.114 :drawCircle;
-        %tmp.116 = lgetv %centerX.3;
-        symbol [ centerX %tmp.116 362 22 29 ];
-        %tmp.117 = lgetv %centerY.4;
-        symbol [ centerY %tmp.117 362 31 38 ];
-        %tmp.118 = lgetv %radius.5;
-        symbol [ radius %tmp.118 362 40 46 ];
-        invoke %tmp.114 %tmp.115(%tmp.116, %tmp.117, %tmp.118);
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_355_8_357_8_if_stmt:
+        %tmp.92 = lgetv %extraAltitude.10;
+        symbol [ extraAltitude %tmp.92 355 12 25 ];
+        %tmp.93 = lgetv %maximumAltitude.6;
+        symbol [ maximumAltitude %tmp.93 355 28 43 ];
+        %tmp.94 = gt %tmp.92 %tmp.93;
+        bf %tmp.94 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_355_8_357_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_355_8_357_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_355_45_357_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 356 12 ]
+        %tmp.95 = lgetv %maximumAltitude.6;
+        symbol [ maximumAltitude %tmp.95 356 28 43 ];
+        lputv %extraAltitude.10 %tmp.95;
+        symbol [ extraAltitude %extraAltitude.10 356 12 25 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_355_45_357_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_355_8_357_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_355_8_357_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 359 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
+        %extraSweep.11 = local;
+        symbol [ extraSweep %extraSweep.11 359 12 22 ];
+        %tmp.96 = lgetv %extraAltitude.10;
+        symbol [ extraAltitude %tmp.96 360 12 25 ];
+        %tmp.97 = 360;
+        %tmp.98 = mul %tmp.96 %tmp.97;
+        %tmp.99 = lgetv %maximumAltitude.6;
+        symbol [ maximumAltitude %tmp.99 360 34 49 ];
+        %tmp.100 = div %tmp.98 %tmp.99;
+        lputv %extraSweep.11 %tmp.100;
+        symbol [ extraSweep %extraSweep.11 359 12 22 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 363 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop" ]
+        %ringColor.12 = local;
+        symbol [ ringColor %ringColor.12 363 12 21 ];
+        symbol [ Graphics %tmp.101 363 24 32 ];
+        %tmp.101 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.102 363 33 44 ];
+        %tmp.102 = getv %tmp.101 :COLOR_GREEN;
+        lputv %ringColor.12 %tmp.102;
+        symbol [ ringColor %ringColor.12 363 12 21 ];
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 365 8 ]
-        %tmp.119 = lgetv %dc;
-        symbol [ dc %tmp.119 365 8 10 ];
-        symbol [ setColor %tmp.120 365 11 19 ];
-        %tmp.120 = getv function %tmp.119 :setColor;
-        %tmp.121 = lgetv %ringColor.9;
-        symbol [ ringColor %tmp.121 365 20 29 ];
-        symbol [ Graphics %tmp.122 365 31 39 ];
-        %tmp.122 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.123 365 40 51 ];
-        %tmp.123 = getv %tmp.122 :COLOR_BLACK;
-        invoke %tmp.119 %tmp.120(%tmp.121, %tmp.123);
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 367 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_367_8_378_8_if_stmt:
-        %tmp.124 = lgetv %displayedAltitude.7;
-        symbol [ displayedAltitude %tmp.124 367 12 29 ];
-        %tmp.125 = lgetv %maximumAltitude.6;
-        symbol [ maximumAltitude %tmp.125 367 33 48 ];
-        %tmp.126 = gte %tmp.124 %tmp.125;
-        bf %tmp.126 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_367_8_378_8_if_false;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_367_8_378_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_367_50_369_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 368 12 ]
-        %tmp.127 = lgetv %dc;
-        symbol [ dc %tmp.127 368 12 14 ];
-        symbol [ drawCircle %tmp.128 368 15 25 ];
-        %tmp.128 = getv function %tmp.127 :drawCircle;
-        %tmp.129 = lgetv %centerX.3;
-        symbol [ centerX %tmp.129 368 26 33 ];
-        %tmp.130 = lgetv %centerY.4;
-        symbol [ centerY %tmp.130 368 35 42 ];
-        %tmp.131 = lgetv %radius.5;
-        symbol [ radius %tmp.131 368 44 50 ];
-        invoke %tmp.127 %tmp.128(%tmp.129, %tmp.130, %tmp.131);
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_367_50_369_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_367_8_378_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_367_8_378_8_if_false:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 369 15 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_15_378_8_if_stmt:
-        %tmp.132 = lgetv %displayedAltitude.7;
-        symbol [ displayedAltitude %tmp.132 369 19 36 ];
-        %tmp.133 = 0;
-        %tmp.134 = gt %tmp.132 %tmp.133;
-        bf %tmp.134 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_15_378_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_15_378_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_42_378_8_start:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_365_8_367_8_if_stmt:
+        %tmp.103 = lgetv %displayedAltitude.7;
+        symbol [ displayedAltitude %tmp.103 365 12 29 ];
+        %tmp.104 = 1200;
+        %tmp.105 = lte %tmp.103 %tmp.104;
+        bf %tmp.105 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_365_8_367_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_365_8_367_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_365_39_367_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 366 12 ]
+        symbol [ Graphics %tmp.106 366 24 32 ];
+        %tmp.106 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.107 366 33 45 ];
+        %tmp.107 = getv %tmp.106 :COLOR_YELLOW;
+        lputv %ringColor.12 %tmp.107;
+        symbol [ ringColor %ringColor.12 366 12 21 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_365_39_367_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_365_8_367_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_365_8_367_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 369 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_8_371_8_if_stmt:
+        %tmp.108 = lgetv %displayedAltitude.7;
+        symbol [ displayedAltitude %tmp.108 369 12 29 ];
+        %tmp.109 = 750;
+        %tmp.110 = lt %tmp.108 %tmp.109;
+        bf %tmp.110 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_8_371_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_8_371_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_37_371_8_start:
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 370 12 ]
-        %tmp.135 = lgetv %dc;
-        symbol [ dc %tmp.135 370 12 14 ];
-        symbol [ drawArc %tmp.136 370 15 22 ];
-        %tmp.136 = getv function %tmp.135 :drawArc;
-        %tmp.137 = lgetv %centerX.3;
-        symbol [ centerX %tmp.137 371 16 23 ];
-        %tmp.138 = lgetv %centerY.4;
-        symbol [ centerY %tmp.138 372 16 23 ];
-        %tmp.139 = lgetv %radius.5;
-        symbol [ radius %tmp.139 373 16 22 ];
-        symbol [ Graphics %tmp.140 374 16 24 ];
-        %tmp.140 = getm $.Toybox.Graphics;
-        symbol [ ARC_CLOCKWISE %tmp.141 374 25 38 ];
-        %tmp.141 = getv %tmp.140 :ARC_CLOCKWISE;
-        %tmp.142 = 90;
-        %tmp.143 = 90;
-        %tmp.144 = lgetv %sweep.8;
-        symbol [ sweep %tmp.144 376 21 26 ];
-        %tmp.145 = sub %tmp.143 %tmp.144;
-        invoke %tmp.135 %tmp.136(%tmp.137, %tmp.138, %tmp.139, %tmp.141, %tmp.142, %tmp.145);
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_42_378_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_15_378_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_15_378_8_if_end:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_367_8_378_8_if_end:
+        symbol [ Graphics %tmp.111 370 24 32 ];
+        %tmp.111 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.112 370 33 42 ];
+        %tmp.112 = getv %tmp.111 :COLOR_RED;
+        lputv %ringColor.12 %tmp.112;
+        symbol [ ringColor %ringColor.12 370 12 21 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_37_371_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_8_371_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_369_8_371_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 374 8 ]
+        %tmp.113 = lgetv %dc;
+        symbol [ dc %tmp.113 374 8 10 ];
+        symbol [ setColor %tmp.114 374 11 19 ];
+        %tmp.114 = getv function %tmp.113 :setColor;
+        symbol [ Graphics %tmp.115 374 20 28 ];
+        %tmp.115 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.116 374 29 40 ];
+        %tmp.116 = getv %tmp.115 :COLOR_BLACK;
+        symbol [ Graphics %tmp.117 374 42 50 ];
+        %tmp.117 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.118 374 51 62 ];
+        %tmp.118 = getv %tmp.117 :COLOR_BLACK;
+        invoke %tmp.113 %tmp.114(%tmp.116, %tmp.118);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 375 8 ]
+        %tmp.119 = lgetv %dc;
+        symbol [ dc %tmp.119 375 8 10 ];
+        symbol [ clear %tmp.120 375 11 16 ];
+        %tmp.120 = getv function %tmp.119 :clear;
+        invoke %tmp.119 %tmp.120();
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 378 8 ]
+        %tmp.121 = lgetv %dc;
+        symbol [ dc %tmp.121 378 8 10 ];
+        symbol [ setPenWidth %tmp.122 378 11 22 ];
+        %tmp.122 = getv function %tmp.121 :setPenWidth;
+        %tmp.123 = 50;
+        invoke %tmp.121 %tmp.122(%tmp.123);
 [ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 381 8 ]
-        %tmp.146 = lgetv %dc;
-        symbol [ dc %tmp.146 381 8 10 ];
-        symbol [ setColor %tmp.147 381 11 19 ];
-        %tmp.147 = getv function %tmp.146 :setColor;
-        symbol [ Graphics %tmp.148 381 20 28 ];
-        %tmp.148 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.149 381 29 40 ];
-        %tmp.149 = getv %tmp.148 :COLOR_WHITE;
-        symbol [ Graphics %tmp.150 381 42 50 ];
-        %tmp.150 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.151 381 51 68 ];
-        %tmp.151 = getv %tmp.150 :COLOR_TRANSPARENT;
-        invoke %tmp.146 %tmp.147(%tmp.149, %tmp.151);
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 382 8 ]
-        %tmp.152 = lgetv %dc;
-        symbol [ dc %tmp.152 382 8 10 ];
-        symbol [ drawText %tmp.153 382 11 19 ];
-        %tmp.153 = getv function %tmp.152 :drawText;
-        %tmp.154 = lgetv %centerX.3;
-        symbol [ centerX %tmp.154 383 12 19 ];
-        %tmp.155 = lgetv %centerY.4;
-        symbol [ centerY %tmp.155 384 12 19 ];
-        %tmp.156 = 30;
-        %tmp.157 = sub %tmp.155 %tmp.156;
-        symbol [ Graphics %tmp.158 385 12 20 ];
+        %tmp.124 = lgetv %dc;
+        symbol [ dc %tmp.124 381 8 10 ];
+        symbol [ setColor %tmp.125 381 11 19 ];
+        %tmp.125 = getv function %tmp.124 :setColor;
+        %tmp.126 = lgetv %ringColor.12;
+        symbol [ ringColor %tmp.126 381 20 29 ];
+        symbol [ Graphics %tmp.127 381 31 39 ];
+        %tmp.127 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.128 381 40 51 ];
+        %tmp.128 = getv %tmp.127 :COLOR_BLACK;
+        invoke %tmp.124 %tmp.125(%tmp.126, %tmp.128);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 383 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_383_8_398_8_if_stmt:
+        %tmp.129 = lgetv %baseAltitude.8;
+        symbol [ baseAltitude %tmp.129 383 12 24 ];
+        %tmp.130 = lgetv %maximumAltitude.6;
+        symbol [ maximumAltitude %tmp.130 383 28 43 ];
+        %tmp.131 = gte %tmp.129 %tmp.130;
+        bf %tmp.131 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_383_8_398_8_if_false;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_383_8_398_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_383_45_389_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 384 12 ]
+        %tmp.132 = lgetv %dc;
+        symbol [ dc %tmp.132 384 12 14 ];
+        symbol [ drawCircle %tmp.133 384 15 25 ];
+        %tmp.133 = getv function %tmp.132 :drawCircle;
+        %tmp.134 = lgetv %centerX.3;
+        symbol [ centerX %tmp.134 385 16 23 ];
+        %tmp.135 = lgetv %centerY.4;
+        symbol [ centerY %tmp.135 386 16 23 ];
+        %tmp.136 = lgetv %radius.5;
+        symbol [ radius %tmp.136 387 16 22 ];
+        invoke %tmp.132 %tmp.133(%tmp.134, %tmp.135, %tmp.136);
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_383_45_389_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_383_8_398_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_383_8_398_8_if_false:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 389 15 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_389_15_398_8_if_stmt:
+        %tmp.137 = lgetv %baseAltitude.8;
+        symbol [ baseAltitude %tmp.137 389 19 31 ];
+        %tmp.138 = 0;
+        %tmp.139 = gt %tmp.137 %tmp.138;
+        bf %tmp.139 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_389_15_398_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_389_15_398_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_389_37_398_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 390 12 ]
+        %tmp.140 = lgetv %dc;
+        symbol [ dc %tmp.140 390 12 14 ];
+        symbol [ drawArc %tmp.141 390 15 22 ];
+        %tmp.141 = getv function %tmp.140 :drawArc;
+        %tmp.142 = lgetv %centerX.3;
+        symbol [ centerX %tmp.142 391 16 23 ];
+        %tmp.143 = lgetv %centerY.4;
+        symbol [ centerY %tmp.143 392 16 23 ];
+        %tmp.144 = lgetv %radius.5;
+        symbol [ radius %tmp.144 393 16 22 ];
+        symbol [ Graphics %tmp.145 394 16 24 ];
+        %tmp.145 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.146 394 25 38 ];
+        %tmp.146 = getv %tmp.145 :ARC_CLOCKWISE;
+        %tmp.147 = 90;
+        %tmp.148 = 90;
+        %tmp.149 = lgetv %baseSweep.9;
+        symbol [ baseSweep %tmp.149 396 21 30 ];
+        %tmp.150 = sub %tmp.148 %tmp.149;
+        invoke %tmp.140 %tmp.141(%tmp.142, %tmp.143, %tmp.144, %tmp.146, %tmp.147, %tmp.150);
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_389_37_398_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_389_15_398_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_389_15_398_8_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_383_8_398_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 401 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_401_8_423_8_if_stmt:
+        %tmp.151 = lgetv %extraAltitude.10;
+        symbol [ extraAltitude %tmp.151 401 12 25 ];
+        %tmp.152 = 0;
+        %tmp.153 = gt %tmp.151 %tmp.152;
+        bf %tmp.153 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_401_8_423_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_401_8_423_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_401_31_423_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 402 12 ]
+        %tmp.154 = lgetv %dc;
+        symbol [ dc %tmp.154 402 12 14 ];
+        symbol [ setColor %tmp.155 402 15 23 ];
+        %tmp.155 = getv function %tmp.154 :setColor;
+        symbol [ Graphics %tmp.156 403 16 24 ];
+        %tmp.156 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLUE %tmp.157 403 25 35 ];
+        %tmp.157 = getv %tmp.156 :COLOR_BLUE;
+        symbol [ Graphics %tmp.158 404 16 24 ];
         %tmp.158 = getm $.Toybox.Graphics;
-        symbol [ FONT_NUMBER_HOT %tmp.159 385 21 36 ];
-        %tmp.159 = getv %tmp.158 :FONT_NUMBER_HOT;
-        %tmp.160 = lgetv %displayedAltitude.7;
-        symbol [ displayedAltitude %tmp.160 386 12 29 ];
-        symbol [ format %tmp.161 386 30 36 ];
-        %tmp.161 = getv function %tmp.160 :format;
-        %tmp.162 = "%d";
-        %tmp.163 = invoke %tmp.160 %tmp.161(%tmp.162);
-        symbol [ Graphics %tmp.164 387 12 20 ];
-        %tmp.164 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.165 387 21 40 ];
-        %tmp.165 = getv %tmp.164 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.152 %tmp.153(%tmp.154, %tmp.157, %tmp.159, %tmp.163, %tmp.165);
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 391 8 ]
-        %tmp.166 = lgetv %dc;
-        symbol [ dc %tmp.166 391 8 10 ];
-        symbol [ setColor %tmp.167 391 11 19 ];
-        %tmp.167 = getv function %tmp.166 :setColor;
-        symbol [ Graphics %tmp.168 391 20 28 ];
-        %tmp.168 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.169 391 29 40 ];
-        %tmp.169 = getv %tmp.168 :COLOR_WHITE;
-        symbol [ Graphics %tmp.170 391 42 50 ];
-        %tmp.170 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.171 391 51 68 ];
-        %tmp.171 = getv %tmp.170 :COLOR_TRANSPARENT;
-        invoke %tmp.166 %tmp.167(%tmp.169, %tmp.171);
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 392 8 ]
-        %tmp.172 = lgetv %dc;
-        symbol [ dc %tmp.172 392 8 10 ];
-        symbol [ drawText %tmp.173 392 11 19 ];
-        %tmp.173 = getv function %tmp.172 :drawText;
-        %tmp.174 = lgetv %centerX.3;
-        symbol [ centerX %tmp.174 393 12 19 ];
-        %tmp.175 = lgetv %centerY.4;
-        symbol [ centerY %tmp.175 394 12 19 ];
-        %tmp.176 = 38;
-        %tmp.177 = add %tmp.175 %tmp.176;
-        symbol [ Graphics %tmp.178 395 12 20 ];
-        %tmp.178 = getm $.Toybox.Graphics;
-        symbol [ FONT_TINY %tmp.179 395 21 30 ];
-        %tmp.179 = getv %tmp.178 :FONT_TINY;
-        %tmp.180 = self;
-        symbol [ getPhaseLabel %tmp.181 396 12 25 ];
-        %tmp.181 = getv function %tmp.180 :getPhaseLabel;
-        %tmp.182 = invoke %tmp.180 %tmp.181();
-        symbol [ Graphics %tmp.183 397 12 20 ];
+        symbol [ COLOR_BLACK %tmp.159 404 25 36 ];
+        %tmp.159 = getv %tmp.158 :COLOR_BLACK;
+        invoke %tmp.154 %tmp.155(%tmp.157, %tmp.159);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 407 12 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_407_12_422_12_if_stmt:
+        %tmp.160 = lgetv %extraAltitude.10;
+        symbol [ extraAltitude %tmp.160 407 16 29 ];
+        %tmp.161 = lgetv %maximumAltitude.6;
+        symbol [ maximumAltitude %tmp.161 407 33 48 ];
+        %tmp.162 = gte %tmp.160 %tmp.161;
+        bf %tmp.162 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_407_12_422_12_if_else_false;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_407_12_422_12_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_407_50_413_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 408 16 ]
+        %tmp.163 = lgetv %dc;
+        symbol [ dc %tmp.163 408 16 18 ];
+        symbol [ drawCircle %tmp.164 408 19 29 ];
+        %tmp.164 = getv function %tmp.163 :drawCircle;
+        %tmp.165 = lgetv %centerX.3;
+        symbol [ centerX %tmp.165 409 20 27 ];
+        %tmp.166 = lgetv %centerY.4;
+        symbol [ centerY %tmp.166 410 20 27 ];
+        %tmp.167 = lgetv %radius.5;
+        symbol [ radius %tmp.167 411 20 26 ];
+        invoke %tmp.163 %tmp.164(%tmp.165, %tmp.166, %tmp.167);
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_407_50_413_12_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_407_12_422_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_407_12_422_12_if_else_false:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_19_422_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 414 16 ]
+        %tmp.168 = lgetv %dc;
+        symbol [ dc %tmp.168 414 16 18 ];
+        symbol [ drawArc %tmp.169 414 19 26 ];
+        %tmp.169 = getv function %tmp.168 :drawArc;
+        %tmp.170 = lgetv %centerX.3;
+        symbol [ centerX %tmp.170 415 20 27 ];
+        %tmp.171 = lgetv %centerY.4;
+        symbol [ centerY %tmp.171 416 20 27 ];
+        %tmp.172 = lgetv %radius.5;
+        symbol [ radius %tmp.172 417 20 26 ];
+        symbol [ Graphics %tmp.173 418 20 28 ];
+        %tmp.173 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.174 418 29 42 ];
+        %tmp.174 = getv %tmp.173 :ARC_CLOCKWISE;
+        %tmp.175 = 90;
+        %tmp.176 = 90;
+        %tmp.177 = lgetv %extraSweep.11;
+        symbol [ extraSweep %tmp.177 420 25 35 ];
+        %tmp.178 = sub %tmp.176 %tmp.177;
+        invoke %tmp.168 %tmp.169(%tmp.170, %tmp.171, %tmp.172, %tmp.174, %tmp.175, %tmp.178);
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_19_422_12_stop:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_407_12_422_12_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_401_31_423_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_401_8_423_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_401_8_423_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 426 8 ]
+        %tmp.179 = lgetv %dc;
+        symbol [ dc %tmp.179 426 8 10 ];
+        symbol [ setColor %tmp.180 426 11 19 ];
+        %tmp.180 = getv function %tmp.179 :setColor;
+        symbol [ Graphics %tmp.181 426 20 28 ];
+        %tmp.181 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.182 426 29 40 ];
+        %tmp.182 = getv %tmp.181 :COLOR_WHITE;
+        symbol [ Graphics %tmp.183 426 42 50 ];
         %tmp.183 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.184 397 21 40 ];
-        %tmp.184 = getv %tmp.183 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.172 %tmp.173(%tmp.174, %tmp.177, %tmp.179, %tmp.182, %tmp.184);
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_399_4_stop:
+        symbol [ COLOR_TRANSPARENT %tmp.184 426 51 68 ];
+        %tmp.184 = getv %tmp.183 :COLOR_TRANSPARENT;
+        invoke %tmp.179 %tmp.180(%tmp.182, %tmp.184);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 427 8 ]
+        %tmp.185 = lgetv %dc;
+        symbol [ dc %tmp.185 427 8 10 ];
+        symbol [ drawText %tmp.186 427 11 19 ];
+        %tmp.186 = getv function %tmp.185 :drawText;
+        %tmp.187 = lgetv %centerX.3;
+        symbol [ centerX %tmp.187 428 12 19 ];
+        %tmp.188 = lgetv %centerY.4;
+        symbol [ centerY %tmp.188 429 12 19 ];
+        %tmp.189 = 30;
+        %tmp.190 = sub %tmp.188 %tmp.189;
+        symbol [ Graphics %tmp.191 430 12 20 ];
+        %tmp.191 = getm $.Toybox.Graphics;
+        symbol [ FONT_NUMBER_HOT %tmp.192 430 21 36 ];
+        %tmp.192 = getv %tmp.191 :FONT_NUMBER_HOT;
+        %tmp.193 = lgetv %displayedAltitude.7;
+        symbol [ displayedAltitude %tmp.193 431 12 29 ];
+        symbol [ format %tmp.194 431 30 36 ];
+        %tmp.194 = getv function %tmp.193 :format;
+        %tmp.195 = "%d";
+        %tmp.196 = invoke %tmp.193 %tmp.194(%tmp.195);
+        symbol [ Graphics %tmp.197 432 12 20 ];
+        %tmp.197 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.198 432 21 40 ];
+        %tmp.198 = getv %tmp.197 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.185 %tmp.186(%tmp.187, %tmp.190, %tmp.192, %tmp.196, %tmp.198);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 436 8 ]
+        %tmp.199 = lgetv %dc;
+        symbol [ dc %tmp.199 436 8 10 ];
+        symbol [ setColor %tmp.200 436 11 19 ];
+        %tmp.200 = getv function %tmp.199 :setColor;
+        symbol [ Graphics %tmp.201 436 20 28 ];
+        %tmp.201 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.202 436 29 40 ];
+        %tmp.202 = getv %tmp.201 :COLOR_WHITE;
+        symbol [ Graphics %tmp.203 436 42 50 ];
+        %tmp.203 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.204 436 51 68 ];
+        %tmp.204 = getv %tmp.203 :COLOR_TRANSPARENT;
+        invoke %tmp.199 %tmp.200(%tmp.202, %tmp.204);
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 437 8 ]
+        %tmp.205 = lgetv %dc;
+        symbol [ dc %tmp.205 437 8 10 ];
+        symbol [ drawText %tmp.206 437 11 19 ];
+        %tmp.206 = getv function %tmp.205 :drawText;
+        %tmp.207 = lgetv %centerX.3;
+        symbol [ centerX %tmp.207 438 12 19 ];
+        %tmp.208 = lgetv %centerY.4;
+        symbol [ centerY %tmp.208 439 12 19 ];
+        %tmp.209 = 38;
+        %tmp.210 = add %tmp.208 %tmp.209;
+        symbol [ Graphics %tmp.211 440 12 20 ];
+        %tmp.211 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.212 440 21 30 ];
+        %tmp.212 = getv %tmp.211 :FONT_TINY;
+        %tmp.213 = self;
+        symbol [ getPhaseLabel %tmp.214 441 12 25 ];
+        %tmp.214 = getv function %tmp.213 :getPhaseLabel;
+        %tmp.215 = invoke %tmp.213 %tmp.214();
+        symbol [ Graphics %tmp.216 442 12 20 ];
+        %tmp.216 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.217 442 21 40 ];
+        %tmp.217 = getv %tmp.216 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.205 %tmp.206(%tmp.207, %tmp.210, %tmp.212, %tmp.215, %tmp.217);
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_294_26_444_4_stop:
     }
-    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 404; @symbol_functiondef = [onHide,404,13,19]; ]
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 449; @symbol_functiondef = [onHide,449,13,19]; ]
     function onHide() {
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_404_22_406_4_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 405 8 ]
-        symbol [ updateTimer %tmp.2 405 8 19 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_449_22_451_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 450 8 ]
+        symbol [ updateTimer %tmp.2 450 8 19 ];
         %tmp.2 = getv ? :updateTimer;
-        symbol [ stop %tmp.3 405 20 24 ];
+        symbol [ stop %tmp.3 450 20 24 ];
         %tmp.3 = getv function %tmp.2 :stop;
         invoke %tmp.2 %tmp.3();
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_404_22_406_4_stop:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_449_22_451_4_stop:
     }
-    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 408; @symbol_functiondef = [getPhaseLabel,408,13,26]; ]
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 453; @symbol_functiondef = [getPhaseLabel,453,13,26]; ]
     function getPhaseLabel() {
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_408_29_424_4_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 409 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_409_8_421_8_if_stmt:
-        symbol [ jumpPhase %tmp.2 409 12 21 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_453_29_469_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 454 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_454_8_466_8_if_stmt:
+        symbol [ jumpPhase %tmp.2 454 12 21 ];
         %tmp.2 = getv ? :jumpPhase;
         %tmp.4 = const :calibrating;
-        symbol [ calibrating %tmp.4 409 26 37 const ];
+        symbol [ calibrating %tmp.4 454 26 37 const ];
         %tmp.5 = eq %tmp.2 %tmp.4;
-        bf %tmp.5 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_409_8_421_8_if_false;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_409_8_421_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_409_39_411_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 410 12 ]
+        bf %tmp.5 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_454_8_466_8_if_false;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_454_8_466_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_454_39_456_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 455 12 ]
         %tmp.6 = "CALIBRATING";
         ret %tmp.6;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_409_39_411_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_409_8_421_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_409_8_421_8_if_false:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 411 15 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_411_15_421_8_if_stmt:
-        symbol [ jumpPhase %tmp.8 411 19 28 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_454_39_456_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_454_8_466_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_454_8_466_8_if_false:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 456 15 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_15_466_8_if_stmt:
+        symbol [ jumpPhase %tmp.8 456 19 28 ];
         %tmp.8 = getv ? :jumpPhase;
         %tmp.10 = const :ground;
-        symbol [ ground %tmp.10 411 33 39 const ];
+        symbol [ ground %tmp.10 456 33 39 const ];
         %tmp.11 = eq %tmp.8 %tmp.10;
-        bf %tmp.11 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_411_15_421_8_if_false;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_411_15_421_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_411_41_413_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 412 12 ]
+        bf %tmp.11 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_15_466_8_if_false;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_15_466_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_41_458_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 457 12 ]
         %tmp.12 = "GROUND";
         ret %tmp.12;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_411_41_413_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_411_15_421_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_411_15_421_8_if_false:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 413 15 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_15_421_8_if_stmt:
-        symbol [ jumpPhase %tmp.14 413 19 28 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_41_458_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_15_466_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_15_466_8_if_false:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 458 15 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_458_15_466_8_if_stmt:
+        symbol [ jumpPhase %tmp.14 458 19 28 ];
         %tmp.14 = getv ? :jumpPhase;
         %tmp.16 = const :climbing;
-        symbol [ climbing %tmp.16 413 33 41 const ];
+        symbol [ climbing %tmp.16 458 33 41 const ];
         %tmp.17 = eq %tmp.14 %tmp.16;
-        bf %tmp.17 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_15_421_8_if_false;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_15_421_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_43_415_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 414 12 ]
+        bf %tmp.17 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_458_15_466_8_if_false;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_458_15_466_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_458_43_460_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 459 12 ]
         %tmp.18 = "CLIMBING";
         ret %tmp.18;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_43_415_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_15_421_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_15_421_8_if_false:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 415 15 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_415_15_421_8_if_stmt:
-        symbol [ jumpPhase %tmp.20 415 19 28 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_458_43_460_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_458_15_466_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_458_15_466_8_if_false:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 460 15 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_15_466_8_if_stmt:
+        symbol [ jumpPhase %tmp.20 460 19 28 ];
         %tmp.20 = getv ? :jumpPhase;
         %tmp.22 = const :freefall;
-        symbol [ freefall %tmp.22 415 33 41 const ];
+        symbol [ freefall %tmp.22 460 33 41 const ];
         %tmp.23 = eq %tmp.20 %tmp.22;
-        bf %tmp.23 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_415_15_421_8_if_false;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_415_15_421_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_415_43_417_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 416 12 ]
+        bf %tmp.23 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_15_466_8_if_false;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_15_466_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_43_462_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 461 12 ]
         %tmp.24 = "FREEFALL";
         ret %tmp.24;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_415_43_417_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_415_15_421_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_415_15_421_8_if_false:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 417 15 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_417_15_421_8_if_stmt:
-        symbol [ jumpPhase %tmp.26 417 19 28 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_43_462_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_15_466_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_15_466_8_if_false:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 462 15 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_462_15_466_8_if_stmt:
+        symbol [ jumpPhase %tmp.26 462 19 28 ];
         %tmp.26 = getv ? :jumpPhase;
         %tmp.28 = const :canopy;
-        symbol [ canopy %tmp.28 417 33 39 const ];
+        symbol [ canopy %tmp.28 462 33 39 const ];
         %tmp.29 = eq %tmp.26 %tmp.28;
-        bf %tmp.29 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_417_15_421_8_if_false;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_417_15_421_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_417_41_419_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 418 12 ]
+        bf %tmp.29 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_462_15_466_8_if_false;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_462_15_466_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_462_41_464_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 463 12 ]
         %tmp.30 = "CANOPY";
         ret %tmp.30;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_417_41_419_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_417_15_421_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_417_15_421_8_if_false:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 419 15 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_419_15_421_8_if_stmt:
-        symbol [ jumpPhase %tmp.32 419 19 28 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_462_41_464_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_462_15_466_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_462_15_466_8_if_false:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 464 15 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_464_15_466_8_if_stmt:
+        symbol [ jumpPhase %tmp.32 464 19 28 ];
         %tmp.32 = getv ? :jumpPhase;
         %tmp.34 = const :landed;
-        symbol [ landed %tmp.34 419 33 39 const ];
+        symbol [ landed %tmp.34 464 33 39 const ];
         %tmp.35 = eq %tmp.32 %tmp.34;
-        bf %tmp.35 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_419_15_421_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_419_15_421_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_419_41_421_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 420 12 ]
+        bf %tmp.35 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_464_15_466_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_464_15_466_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_464_41_466_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 465 12 ]
         %tmp.36 = "LANDED";
         ret %tmp.36;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_419_41_421_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_419_15_421_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_419_15_421_8_if_end:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_417_15_421_8_if_end:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_415_15_421_8_if_end:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_413_15_421_8_if_end:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_411_15_421_8_if_end:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_409_8_421_8_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 423 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_464_41_466_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_464_15_466_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_464_15_466_8_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_462_15_466_8_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_15_466_8_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_458_15_466_8_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_15_466_8_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_454_8_466_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 468 8 ]
         %tmp.37 = "UNKNOWN";
         ret %tmp.37;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_408_29_424_4_stop:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_453_29_469_4_stop:
     }
-    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 426; @symbol_functiondef = [saveCompletedJump,426,13,30]; ]
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 471; @symbol_functiondef = [saveCompletedJump,471,13,30]; ]
     function saveCompletedJump() {
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 427 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_stop" ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 472 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_stop" ]
         %climbSeconds.1 = local;
-        symbol [ climbSeconds %climbSeconds.1 427 12 24 ];
-        symbol [ freefallStartTime %tmp.2 428 13 30 ];
+        symbol [ climbSeconds %climbSeconds.1 472 12 24 ];
+        symbol [ freefallStartTime %tmp.2 473 13 30 ];
         %tmp.2 = getv ? :freefallStartTime;
-        symbol [ climbStartTime %tmp.4 428 33 47 ];
+        symbol [ climbStartTime %tmp.4 473 33 47 ];
         %tmp.4 = getv ? :climbStartTime;
         %tmp.5 = sub %tmp.2 %tmp.4;
         %tmp.6 = 1000;
         %tmp.7 = div %tmp.5 %tmp.6;
         lputv %climbSeconds.1 %tmp.7;
-        symbol [ climbSeconds %climbSeconds.1 427 12 24 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 430 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_stop" ]
+        symbol [ climbSeconds %climbSeconds.1 472 12 24 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 475 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_stop" ]
         %freefallSeconds.2 = local;
-        symbol [ freefallSeconds %freefallSeconds.2 430 12 27 ];
-        symbol [ canopyStartTime %tmp.9 431 13 28 ];
+        symbol [ freefallSeconds %freefallSeconds.2 475 12 27 ];
+        symbol [ canopyStartTime %tmp.9 476 13 28 ];
         %tmp.9 = getv ? :canopyStartTime;
-        symbol [ freefallStartTime %tmp.11 431 31 48 ];
+        symbol [ freefallStartTime %tmp.11 476 31 48 ];
         %tmp.11 = getv ? :freefallStartTime;
         %tmp.12 = sub %tmp.9 %tmp.11;
         %tmp.13 = 1000;
         %tmp.14 = div %tmp.12 %tmp.13;
         lputv %freefallSeconds.2 %tmp.14;
-        symbol [ freefallSeconds %freefallSeconds.2 430 12 27 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 433 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_stop" ]
+        symbol [ freefallSeconds %freefallSeconds.2 475 12 27 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 478 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_stop" ]
         %canopySeconds.3 = local;
-        symbol [ canopySeconds %canopySeconds.3 433 12 25 ];
-        symbol [ landingTime %tmp.16 434 13 24 ];
+        symbol [ canopySeconds %canopySeconds.3 478 12 25 ];
+        symbol [ landingTime %tmp.16 479 13 24 ];
         %tmp.16 = getv ? :landingTime;
-        symbol [ canopyStartTime %tmp.18 434 27 42 ];
+        symbol [ canopyStartTime %tmp.18 479 27 42 ];
         %tmp.18 = getv ? :canopyStartTime;
         %tmp.19 = sub %tmp.16 %tmp.18;
         %tmp.20 = 1000;
         %tmp.21 = div %tmp.19 %tmp.20;
         lputv %canopySeconds.3 %tmp.21;
-        symbol [ canopySeconds %canopySeconds.3 433 12 25 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 436 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_stop" ]
+        symbol [ canopySeconds %canopySeconds.3 478 12 25 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 481 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_stop" ]
         %storage.4 = local;
-        symbol [ storage %storage.4 436 12 19 ];
-        symbol [ JumpStorage %tmp.25 436 26 37 ];
+        symbol [ storage %storage.4 481 12 19 ];
+        symbol [ JumpStorage %tmp.25 481 26 37 ];
         %tmp.25 = getv ? :JumpStorage;
         %tmp.22 = newc %tmp.25 ();
         lputv %storage.4 %tmp.22;
-        symbol [ storage %storage.4 436 12 19 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 438 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_stop" ]
+        symbol [ storage %storage.4 481 12 19 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 483 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_stop" ]
         %jumpNumber.5 = local;
-        symbol [ jumpNumber %jumpNumber.5 438 12 22 ];
+        symbol [ jumpNumber %jumpNumber.5 483 12 22 ];
         %tmp.26 = lgetv %storage.4;
-        symbol [ storage %tmp.26 438 25 32 ];
-        symbol [ saveJump %tmp.27 438 33 41 ];
+        symbol [ storage %tmp.26 483 25 32 ];
+        symbol [ saveJump %tmp.27 483 33 41 ];
         %tmp.27 = getv function %tmp.26 :saveJump;
         %tmp.28 = lgetv %climbSeconds.1;
-        symbol [ climbSeconds %tmp.28 439 12 24 ];
+        symbol [ climbSeconds %tmp.28 484 12 24 ];
         %tmp.29 = lgetv %freefallSeconds.2;
-        symbol [ freefallSeconds %tmp.29 440 12 27 ];
+        symbol [ freefallSeconds %tmp.29 485 12 27 ];
         %tmp.30 = lgetv %canopySeconds.3;
-        symbol [ canopySeconds %tmp.30 441 12 25 ];
-        symbol [ maximumDescentSpeed %tmp.32 442 12 31 ];
+        symbol [ canopySeconds %tmp.30 486 12 25 ];
+        symbol [ maximumDescentSpeed %tmp.32 487 12 31 ];
         %tmp.32 = getv ? :maximumDescentSpeed;
         %tmp.33 = invoke %tmp.26 %tmp.27(%tmp.28, %tmp.29, %tmp.30, %tmp.32);
         lputv %jumpNumber.5 %tmp.33;
-        symbol [ jumpNumber %jumpNumber.5 438 12 22 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 445 8 ]
-        symbol [ System %tmp.34 445 8 14 ];
+        symbol [ jumpNumber %jumpNumber.5 483 12 22 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 490 8 ]
+        symbol [ System %tmp.34 490 8 14 ];
         %tmp.34 = getm $.Toybox.System;
-        symbol [ println %tmp.35 445 15 22 ];
+        symbol [ println %tmp.35 490 15 22 ];
         %tmp.35 = getv function %tmp.34 :println;
         %tmp.36 = "Saved jump #";
         %tmp.37 = lgetv %jumpNumber.5;
-        symbol [ jumpNumber %tmp.37 446 29 39 ];
+        symbol [ jumpNumber %tmp.37 491 29 39 ];
         %tmp.38 = add %tmp.36 %tmp.37;
         %tmp.39 = " climb=";
         %tmp.40 = add %tmp.38 %tmp.39;
         %tmp.41 = lgetv %climbSeconds.1;
-        symbol [ climbSeconds %tmp.41 447 26 38 ];
+        symbol [ climbSeconds %tmp.41 492 26 38 ];
         %tmp.42 = add %tmp.40 %tmp.41;
         %tmp.43 = " freefall=";
         %tmp.44 = add %tmp.42 %tmp.43;
         %tmp.45 = lgetv %freefallSeconds.2;
-        symbol [ freefallSeconds %tmp.45 448 29 44 ];
+        symbol [ freefallSeconds %tmp.45 493 29 44 ];
         %tmp.46 = add %tmp.44 %tmp.45;
         %tmp.47 = " canopy=";
         %tmp.48 = add %tmp.46 %tmp.47;
         %tmp.49 = lgetv %canopySeconds.3;
-        symbol [ canopySeconds %tmp.49 449 27 40 ];
+        symbol [ canopySeconds %tmp.49 494 27 40 ];
         %tmp.50 = add %tmp.48 %tmp.49;
         %tmp.51 = " maxSpeed=";
         %tmp.52 = add %tmp.50 %tmp.51;
-        symbol [ maximumDescentSpeed %tmp.54 450 29 48 ];
+        symbol [ maximumDescentSpeed %tmp.54 495 29 48 ];
         %tmp.54 = getv ? :maximumDescentSpeed;
         %tmp.55 = add %tmp.52 %tmp.54;
         invoke %tmp.34 %tmp.35(%tmp.55);
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_426_33_452_4_stop:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_471_33_497_4_stop:
     }
-    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 455; @symbol_functiondef = [onPosition,455,17,27]; @symbol_param<0> = [info,455,28,32]; @symbol_param<0>_type<0> = [Position,455,36,44]; @symbol_param<0>_type<1> = [Info,455,45,49]; ]
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 500; @symbol_functiondef = [onPosition,500,17,27]; @symbol_param<0> = [info,500,28,32]; @symbol_param<0>_type<0> = [Position,500,36,44]; @symbol_param<0>_type<1> = [Info,500,45,49]; ]
     function onPosition(info as Position.Info) as Void {
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_455_59_488_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 456 12 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_12_458_12_if_stmt:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_500_59_533_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 501 12 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_501_12_503_12_if_stmt:
         %tmp.1 = lgetv %info;
-        symbol [ info %tmp.1 456 16 20 ];
-        symbol [ position %tmp.2 456 21 29 ];
+        symbol [ info %tmp.1 501 16 20 ];
+        symbol [ position %tmp.2 501 21 29 ];
         %tmp.2 = getv %tmp.1 :position;
         %tmp.3 = null;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_12_458_12_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_12_458_12_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_39_458_12_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 457 16 ]
+        bf %tmp.4 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_501_12_503_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_501_12_503_12_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_501_39_503_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 502 16 ]
         ret ?;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_39_458_12_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_12_458_12_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_456_12_458_12_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 460 12 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_12_463_12_if_stmt:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_16_461_30_begin:
-        symbol [ jumpPhase %tmp.6 460 16 25 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_501_39_503_12_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_501_12_503_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_501_12_503_12_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 505 12 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_505_12_508_12_if_stmt:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_505_16_506_30_begin:
+        symbol [ jumpPhase %tmp.6 505 16 25 ];
         %tmp.6 = getv ? :jumpPhase;
         %tmp.8 = const :freefall;
-        symbol [ freefall %tmp.8 460 30 38 const ];
+        symbol [ freefall %tmp.8 505 30 38 const ];
         %tmp.9 = ne %tmp.6 %tmp.8;
-        bf %tmp.9 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_12_463_12_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_461_16_461_30_true:
-        symbol [ jumpPhase %tmp.11 461 16 25 ];
+        bf %tmp.9 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_505_12_508_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_506_16_506_30_true:
+        symbol [ jumpPhase %tmp.11 506 16 25 ];
         %tmp.11 = getv ? :jumpPhase;
         %tmp.13 = const :canopy;
-        symbol [ canopy %tmp.13 461 30 36 const ];
+        symbol [ canopy %tmp.13 506 30 36 const ];
         %tmp.14 = ne %tmp.11 %tmp.13;
         push %tmp.14;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_461_16_461_30_end:
-        %tmp.15 = phi [%tmp.9 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_16_461_30_begin] [%tmp.14 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_461_16_461_30_true] [%tmp.15 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_461_16_461_30_end];
-        bf %tmp.15 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_12_463_12_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_12_463_12_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_461_38_463_12_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 462 16 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_506_16_506_30_end:
+        %tmp.15 = phi [%tmp.9 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_505_16_506_30_begin] [%tmp.14 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_506_16_506_30_true] [%tmp.15 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_506_16_506_30_end];
+        bf %tmp.15 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_505_12_508_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_505_12_508_12_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_506_38_508_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 507 16 ]
         ret ?;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_461_38_463_12_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_12_463_12_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_460_12_463_12_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 465 12 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_455_59_488_8_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_455_59_488_8_stop" ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_506_38_508_12_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_505_12_508_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_505_12_508_12_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 510 12 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_500_59_533_8_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_500_59_533_8_stop" ]
         %position.1 = local;
-        symbol [ position %position.1 465 16 24 ];
+        symbol [ position %position.1 510 16 24 ];
         %tmp.16 = lgetv %info;
-        symbol [ info %tmp.16 465 27 31 ];
-        symbol [ position %tmp.17 465 32 40 ];
+        symbol [ info %tmp.16 510 27 31 ];
+        symbol [ position %tmp.17 510 32 40 ];
         %tmp.17 = getv %tmp.16 :position;
         lputv %position.1 %tmp.17;
-        symbol [ position %position.1 465 16 24 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 467 12 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_467_12_469_12_if_stmt:
+        symbol [ position %position.1 510 16 24 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 512 12 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_512_12_514_12_if_stmt:
         %tmp.18 = lgetv %position.1;
-        symbol [ position %tmp.18 467 16 24 ];
+        symbol [ position %tmp.18 512 16 24 ];
         %tmp.19 = null;
         %tmp.20 = eq %tmp.18 %tmp.19;
-        bf %tmp.20 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_467_12_469_12_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_467_12_469_12_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_467_34_469_12_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 468 16 ]
+        bf %tmp.20 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_512_12_514_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_512_12_514_12_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_512_34_514_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 513 16 ]
         ret ?;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_467_34_469_12_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_467_12_469_12_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_467_12_469_12_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 471 12 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_455_59_488_8_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_455_59_488_8_stop" ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_512_34_514_12_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_512_12_514_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_512_12_514_12_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 516 12 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_500_59_533_8_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_500_59_533_8_stop" ]
         %coordinates.2 = local;
-        symbol [ coordinates %coordinates.2 471 16 27 ];
+        symbol [ coordinates %coordinates.2 516 16 27 ];
         %tmp.21 = lgetv %position.1;
-        symbol [ position %tmp.21 471 30 38 ];
-        symbol [ toDegrees %tmp.22 471 39 48 ];
+        symbol [ position %tmp.21 516 30 38 ];
+        symbol [ toDegrees %tmp.22 516 39 48 ];
         %tmp.22 = getv function %tmp.21 :toDegrees;
         %tmp.23 = invoke %tmp.21 %tmp.22();
         %tmp.24 = as %tmp.23 Array;
-        symbol [ Array %tmp.24 471 54 59 ];
+        symbol [ Array %tmp.24 516 54 59 ];
         lputv %coordinates.2 %tmp.24;
-        symbol [ coordinates %coordinates.2 471 16 27 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 472 12 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_455_59_488_8_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_455_59_488_8_stop" ]
+        symbol [ coordinates %coordinates.2 516 16 27 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 517 12 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_500_59_533_8_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_500_59_533_8_stop" ]
         %now.3 = local;
-        symbol [ now %now.3 472 16 19 ];
-        symbol [ System %tmp.25 472 22 28 ];
+        symbol [ now %now.3 517 16 19 ];
+        symbol [ System %tmp.25 517 22 28 ];
         %tmp.25 = getm $.Toybox.System;
-        symbol [ getTimer %tmp.26 472 29 37 ];
+        symbol [ getTimer %tmp.26 517 29 37 ];
         %tmp.26 = getv function %tmp.25 :getTimer;
         %tmp.27 = invoke %tmp.25 %tmp.26();
         lputv %now.3 %tmp.27;
-        symbol [ now %now.3 472 16 19 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 474 12 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_474_12_476_12_if_stmt:
+        symbol [ now %now.3 517 16 19 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 519 12 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_519_12_521_12_if_stmt:
         %tmp.28 = lgetv %now.3;
-        symbol [ now %tmp.28 474 16 19 ];
-        symbol [ lastGpsTimestamp %tmp.30 474 23 39 ];
+        symbol [ now %tmp.28 519 16 19 ];
+        symbol [ lastGpsTimestamp %tmp.30 519 23 39 ];
         %tmp.30 = getv ? :lastGpsTimestamp;
         %tmp.31 = eq %tmp.28 %tmp.30;
-        bf %tmp.31 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_474_12_476_12_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_474_12_476_12_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_474_41_476_12_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 475 16 ]
+        bf %tmp.31 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_519_12_521_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_519_12_521_12_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_519_41_521_12_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 520 16 ]
         ret ?;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_474_41_476_12_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_474_12_476_12_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_474_12_476_12_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 478 12 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_519_41_521_12_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_519_12_521_12_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_519_12_521_12_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 523 12 ]
         %tmp.32 = lgetv %now.3;
-        symbol [ now %tmp.32 478 31 34 ];
-        symbol [ lastGpsTimestamp ? 478 12 28 ];
+        symbol [ now %tmp.32 523 31 34 ];
+        symbol [ lastGpsTimestamp ? 523 12 28 ];
         putv self :lastGpsTimestamp %tmp.32;
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 480 12 ]
-        symbol [ System %tmp.33 480 12 18 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 525 12 ]
+        symbol [ System %tmp.33 525 12 18 ];
         %tmp.33 = getm $.Toybox.System;
-        symbol [ println %tmp.34 480 19 26 ];
+        symbol [ println %tmp.34 525 19 26 ];
         %tmp.34 = getv function %tmp.33 :println;
         %tmp.35 = "GPS ";
         %tmp.36 = lgetv %coordinates.2;
-        symbol [ coordinates %tmp.36 482 18 29 ];
+        symbol [ coordinates %tmp.36 527 18 29 ];
         %tmp.37 = 0;
         %tmp.38 = agetv %tmp.36 %tmp.37;
         %tmp.39 = add %tmp.35 %tmp.38;
         %tmp.40 = ", ";
         %tmp.41 = add %tmp.39 %tmp.40;
         %tmp.42 = lgetv %coordinates.2;
-        symbol [ coordinates %tmp.42 484 18 29 ];
+        symbol [ coordinates %tmp.42 529 18 29 ];
         %tmp.43 = 1;
         %tmp.44 = agetv %tmp.42 %tmp.43;
         %tmp.45 = add %tmp.41 %tmp.44;
         %tmp.46 = " phase=";
         %tmp.47 = add %tmp.45 %tmp.46;
         %tmp.48 = self;
-        symbol [ getPhaseLabel %tmp.49 486 18 31 ];
+        symbol [ getPhaseLabel %tmp.49 531 18 31 ];
         %tmp.49 = getv function %tmp.48 :getPhaseLabel;
         %tmp.50 = invoke %tmp.48 %tmp.49();
         %tmp.51 = add %tmp.47 %tmp.50;
         invoke %tmp.33 %tmp.34(%tmp.51);
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_455_59_488_8_stop:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_500_59_533_8_stop:
     }
-    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 491; @symbol_functiondef = [startFitRecording,491,13,30]; ]
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 536; @symbol_functiondef = [startFitRecording,536,13,30]; ]
     function startFitRecording() {
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_491_33_517_4_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 492 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_492_8_494_8_if_stmt:
-        symbol [ fitSession %tmp.2 492 12 22 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_536_33_562_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 537 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_537_8_539_8_if_stmt:
+        symbol [ fitSession %tmp.2 537 12 22 ];
         %tmp.2 = getv ? :fitSession;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_492_8_494_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_492_8_494_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_492_32_494_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 493 12 ]
+        bf %tmp.4 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_537_8_539_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_537_8_539_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_537_32_539_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 538 12 ]
         ret ?;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_492_32_494_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_492_8_494_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_492_8_494_8_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 496 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_491_33_517_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_491_33_517_4_stop" ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_537_32_539_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_537_8_539_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_537_8_539_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 541 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_536_33_562_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_536_33_562_4_stop" ]
         %storage.1 = local;
-        symbol [ storage %storage.1 496 12 19 ];
-        symbol [ JumpStorage %tmp.8 496 26 37 ];
+        symbol [ storage %storage.1 541 12 19 ];
+        symbol [ JumpStorage %tmp.8 541 26 37 ];
         %tmp.8 = getv ? :JumpStorage;
         %tmp.5 = newc %tmp.8 ();
         lputv %storage.1 %tmp.5;
-        symbol [ storage %storage.1 496 12 19 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 497 8 ]
-        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_491_33_517_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_491_33_517_4_stop" ]
+        symbol [ storage %storage.1 541 12 19 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 542 8 ]
+        [ "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_536_33_562_4_start" "_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_536_33_562_4_stop" ]
         %nextJumpNumber.2 = local;
-        symbol [ nextJumpNumber %nextJumpNumber.2 497 12 26 ];
+        symbol [ nextJumpNumber %nextJumpNumber.2 542 12 26 ];
         %tmp.9 = lgetv %storage.1;
-        symbol [ storage %tmp.9 498 12 19 ];
-        symbol [ getJumpCount %tmp.10 498 20 32 ];
+        symbol [ storage %tmp.9 543 12 19 ];
+        symbol [ getJumpCount %tmp.10 543 20 32 ];
         %tmp.10 = getv function %tmp.9 :getJumpCount;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         %tmp.12 = 1;
         %tmp.13 = add %tmp.11 %tmp.12;
         lputv %nextJumpNumber.2 %tmp.13;
-        symbol [ nextJumpNumber %nextJumpNumber.2 497 12 26 ];
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 500 8 ]
-        symbol [ ActivityRecording %tmp.14 500 21 38 ];
+        symbol [ nextJumpNumber %nextJumpNumber.2 542 12 26 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 545 8 ]
+        symbol [ ActivityRecording %tmp.14 545 21 38 ];
         %tmp.14 = getm $.Toybox.ActivityRecording;
-        symbol [ createSession %tmp.15 500 39 52 ];
+        symbol [ createSession %tmp.15 545 39 52 ];
         %tmp.15 = getv function %tmp.14 :createSession;
         %tmp.16 = newd 3;
         %tmp.18 = const :name;
-        symbol [ name %tmp.18 501 13 17 const ];
+        symbol [ name %tmp.18 546 13 17 const ];
         %tmp.19 = "Skydive ";
         %tmp.20 = lgetv %nextJumpNumber.2;
-        symbol [ nextJumpNumber %tmp.20 502 29 43 ];
-        symbol [ format %tmp.21 502 44 50 ];
+        symbol [ nextJumpNumber %tmp.20 547 29 43 ];
+        symbol [ format %tmp.21 547 44 50 ];
         %tmp.21 = getv function %tmp.20 :format;
         %tmp.22 = "%d";
         %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
@@ -1934,109 +2048,109 @@ _home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_492
         %tmp.25 = dup %tmp.16;
         %tmp.26 = aputv %tmp.25 %tmp.18 %tmp.24;
         %tmp.28 = const :sport;
-        symbol [ sport %tmp.28 503 13 18 const ];
-        symbol [ ActivityRecording %tmp.29 504 16 33 ];
+        symbol [ sport %tmp.28 548 13 18 const ];
+        symbol [ ActivityRecording %tmp.29 549 16 33 ];
         %tmp.29 = getm $.Toybox.ActivityRecording;
-        symbol [ SPORT_SKY_DIVING %tmp.30 504 34 50 ];
+        symbol [ SPORT_SKY_DIVING %tmp.30 549 34 50 ];
         %tmp.30 = getv %tmp.29 :SPORT_SKY_DIVING;
         %tmp.31 = dup %tmp.26;
         %tmp.32 = aputv %tmp.31 %tmp.28 %tmp.30;
         %tmp.34 = const :subSport;
-        symbol [ subSport %tmp.34 505 13 21 const ];
-        symbol [ ActivityRecording %tmp.35 506 16 33 ];
+        symbol [ subSport %tmp.34 550 13 21 const ];
+        symbol [ ActivityRecording %tmp.35 551 16 33 ];
         %tmp.35 = getm $.Toybox.ActivityRecording;
-        symbol [ SUB_SPORT_GENERIC %tmp.36 506 34 51 ];
+        symbol [ SUB_SPORT_GENERIC %tmp.36 551 34 51 ];
         %tmp.36 = getv %tmp.35 :SUB_SPORT_GENERIC;
         %tmp.37 = dup %tmp.32;
         %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
         %tmp.39 = invoke %tmp.14 %tmp.15(%tmp.38);
-        symbol [ fitSession ? 500 8 18 ];
+        symbol [ fitSession ? 545 8 18 ];
         putv self :fitSession %tmp.39;
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 509 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_509_8_516_8_if_stmt:
-        symbol [ fitSession %tmp.41 509 12 22 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 554 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_554_8_561_8_if_stmt:
+        symbol [ fitSession %tmp.41 554 12 22 ];
         %tmp.41 = getv ? :fitSession;
         %tmp.42 = null;
         %tmp.43 = ne %tmp.41 %tmp.42;
-        bf %tmp.43 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_509_8_516_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_509_8_516_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_509_32_516_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 510 12 ]
-        symbol [ fitSession %tmp.45 510 12 22 ];
+        bf %tmp.43 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_554_8_561_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_554_8_561_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_554_32_561_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 555 12 ]
+        symbol [ fitSession %tmp.45 555 12 22 ];
         %tmp.45 = getv ? :fitSession;
         %tmp.46 = as %tmp.45 { (!Null) };
-        symbol [ start %tmp.47 510 23 28 ];
+        symbol [ start %tmp.47 555 23 28 ];
         %tmp.47 = getv function %tmp.46 :start;
         invoke %tmp.46 %tmp.47();
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 512 12 ]
-        symbol [ System %tmp.48 512 12 18 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 557 12 ]
+        symbol [ System %tmp.48 557 12 18 ];
         %tmp.48 = getm $.Toybox.System;
-        symbol [ println %tmp.49 512 19 26 ];
+        symbol [ println %tmp.49 557 19 26 ];
         %tmp.49 = getv function %tmp.48 :println;
         %tmp.50 = "FIT recording started for jump #";
         %tmp.51 = lgetv %nextJumpNumber.2;
-        symbol [ nextJumpNumber %tmp.51 514 18 32 ];
+        symbol [ nextJumpNumber %tmp.51 559 18 32 ];
         %tmp.52 = add %tmp.50 %tmp.51;
         invoke %tmp.48 %tmp.49(%tmp.52);
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_509_32_516_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_509_8_516_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_509_8_516_8_if_end:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_491_33_517_4_stop:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_554_32_561_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_554_8_561_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_554_8_561_8_if_end:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_536_33_562_4_stop:
     }
-    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 519; @symbol_functiondef = [stopAndSaveFitRecording,519,13,36]; ]
+    [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 564; @symbol_functiondef = [stopAndSaveFitRecording,564,13,36]; ]
     function stopAndSaveFitRecording() {
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_519_39_532_4_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 520 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_520_8_522_8_if_stmt:
-        symbol [ fitSession %tmp.2 520 12 22 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_564_39_577_4_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 565 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_565_8_567_8_if_stmt:
+        symbol [ fitSession %tmp.2 565 12 22 ];
         %tmp.2 = getv ? :fitSession;
         %tmp.3 = null;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_520_8_522_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_520_8_522_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_520_32_522_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 521 12 ]
+        bf %tmp.4 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_565_8_567_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_565_8_567_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_565_32_567_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 566 12 ]
         ret ?;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_520_32_522_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_520_8_522_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_520_8_522_8_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 524 8 ]
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_524_8_526_8_if_stmt:
-        symbol [ fitSession %tmp.6 524 12 22 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_565_32_567_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_565_8_567_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_565_8_567_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 569 8 ]
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_569_8_571_8_if_stmt:
+        symbol [ fitSession %tmp.6 569 12 22 ];
         %tmp.6 = getv ? :fitSession;
-        symbol [ isRecording %tmp.7 524 23 34 ];
+        symbol [ isRecording %tmp.7 569 23 34 ];
         %tmp.7 = getv function %tmp.6 :isRecording;
         %tmp.8 = invoke %tmp.6 %tmp.7();
-        bf %tmp.8 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_524_8_526_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_524_8_526_8_if_true:
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_524_38_526_8_start:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 525 12 ]
-        symbol [ fitSession %tmp.10 525 12 22 ];
+        bf %tmp.8 @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_569_8_571_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_569_8_571_8_if_true:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_569_38_571_8_start:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 570 12 ]
+        symbol [ fitSession %tmp.10 570 12 22 ];
         %tmp.10 = getv ? :fitSession;
-        symbol [ stop %tmp.11 525 23 27 ];
+        symbol [ stop %tmp.11 570 23 27 ];
         %tmp.11 = getv function %tmp.10 :stop;
         invoke %tmp.10 %tmp.11();
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_524_38_526_8_stop:
-        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_524_8_526_8_if_end;
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_524_8_526_8_if_end:
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 528 8 ]
-        symbol [ fitSession %tmp.13 528 8 18 ];
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_569_38_571_8_stop:
+        goto @_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_569_8_571_8_if_end;
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_569_8_571_8_if_end:
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 573 8 ]
+        symbol [ fitSession %tmp.13 573 8 18 ];
         %tmp.13 = getv ? :fitSession;
-        symbol [ save %tmp.14 528 19 23 ];
+        symbol [ save %tmp.14 573 19 23 ];
         %tmp.14 = getv function %tmp.13 :save;
         invoke %tmp.13 %tmp.14();
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 529 8 ]
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 574 8 ]
         %tmp.15 = null;
-        symbol [ fitSession ? 529 8 18 ];
+        symbol [ fitSession ? 574 8 18 ];
         putv self :fitSession %tmp.15;
-[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 531 8 ]
-        symbol [ System %tmp.16 531 8 14 ];
+[ "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc" 576 8 ]
+        symbol [ System %tmp.16 576 8 14 ];
         %tmp.16 = getm $.Toybox.System;
-        symbol [ println %tmp.17 531 15 22 ];
+        symbol [ println %tmp.17 576 15 22 ];
         %tmp.17 = getv function %tmp.16 :println;
         %tmp.18 = "FIT recording saved";
         invoke %tmp.16 %tmp.17(%tmp.18);
-_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_519_39_532_4_stop:
+_home_janee_garmin_altimeter_garmin_altimeter_source_garmin_altimeterView_mc_564_39_577_4_stop:
     }
 }
 [ @file = "/home/janee/garmin_altimeter/garmin_altimeter/source/garmin_altimeterView.mc"; @line = 1; ]

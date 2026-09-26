@@ -69,7 +69,7 @@ class garmin_altimeterView extends WatchUi.View {
 
         // Climb from 100 m to 4100 m MSL.
         if (step <= 45) {
-            return 100.0 + ((step - 5) * 100.0);
+            return 100.0 + ((step - 5) * 110.0);
         }
 
         // Freefall at 55 m/s.
@@ -308,7 +308,7 @@ class garmin_altimeterView extends WatchUi.View {
                 centerX,
                 centerY - 30,
                 Graphics.FONT_MEDIUM,
-                :calibrating,
+                "CALIBRATING",
                 Graphics.TEXT_JUSTIFY_CENTER
             );
 
@@ -329,52 +329,97 @@ class garmin_altimeterView extends WatchUi.View {
         var maximumAltitude = 4000;
         var displayedAltitude = altitude;
 
+        // Prevent negative displayed values.
         if (displayedAltitude < 0) {
             displayedAltitude = 0;
         }
 
-        if (displayedAltitude > maximumAltitude) {
-            displayedAltitude = maximumAltitude;
+        // First revolution: 0–4000 m.
+        var baseAltitude = displayedAltitude;
+
+        if (baseAltitude > maximumAltitude) {
+            baseAltitude = maximumAltitude;
         }
 
-        var sweep = displayedAltitude * 360 / maximumAltitude;
+        var baseSweep =
+            baseAltitude * 360 / maximumAltitude;
+
+        // Second revolution: 4000–8000 m.
+        var extraAltitude =
+            displayedAltitude - maximumAltitude;
+
+        if (extraAltitude < 0) {
+            extraAltitude = 0;
+        }
+
+        if (extraAltitude > maximumAltitude) {
+            extraAltitude = maximumAltitude;
+        }
+
+        var extraSweep =
+            extraAltitude * 360 / maximumAltitude;
+
+        // Determine the normal ring color.
         var ringColor = Graphics.COLOR_GREEN;
 
-        // 750–1200 m: orange
         if (displayedAltitude <= 1200) {
             ringColor = Graphics.COLOR_YELLOW;
         }
 
-        // Below 750 m: red
         if (displayedAltitude < 750) {
             ringColor = Graphics.COLOR_RED;
         }
 
-        // Clear the screen.
+        // Clear once, before drawing either ring.
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
 
-        // Wider peripheral ring.
+        // Use a wide peripheral ring.
         dc.setPenWidth(50);
 
-        // Empty part of the scale.
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
-        dc.drawCircle(centerX, centerY, radius);
-
-        // Remaining altitude.
+        // Draw the first 0–4000 m revolution.
         dc.setColor(ringColor, Graphics.COLOR_BLACK);
 
-        if (displayedAltitude >= maximumAltitude) {
-            dc.drawCircle(centerX, centerY, radius);
-        } else if (displayedAltitude > 0) {
+        if (baseAltitude >= maximumAltitude) {
+            dc.drawCircle(
+                centerX,
+                centerY,
+                radius
+            );
+        } else if (baseAltitude > 0) {
             dc.drawArc(
                 centerX,
                 centerY,
                 radius,
                 Graphics.ARC_CLOCKWISE,
                 90,
-                90 - sweep
+                90 - baseSweep
             );
+        }
+
+        // Draw altitude above 4000 m in blue.
+        if (extraAltitude > 0) {
+            dc.setColor(
+                Graphics.COLOR_BLUE,
+                Graphics.COLOR_BLACK
+            );
+
+            if (extraAltitude >= maximumAltitude) {
+                dc.drawCircle(
+                    centerX,
+                    centerY,
+                    radius
+                );
+            } else {
+                dc.drawArc(
+                    centerX,
+                    centerY,
+                    radius,
+                    Graphics.ARC_CLOCKWISE,
+                    90,
+                    90 - extraSweep
+                );
+            }
         }
 
         // Numerical altitude.
